@@ -109,3 +109,22 @@ if(year%4 == 0){
 }else{
     console.log("Year" + year + "Not a leap year");
 }
+
+// What is truthy and falsy values in javascript
+
+// we have five falsy values in javascript
+// 0, " ", undefined, null, Nan, false is always false
+if(score = 0){    //Here 0 is represent like false
+    console.log("Yeah we won the game");
+}else{
+    console.log("Oh No we lost the game")
+}
+
+
+// all other are truty value except above value 
+if(score = 5){
+    console.log("Yeah we won the game");
+}else{
+    console.log("Oh No we lost the game");
+}
+

@@ -262,3 +262,10 @@ if(age >=18){
     console.log('You can drive only electric bike')
 }
 
+// Conditional (Ternary Operator)
+
+var age = 17;
+console.log((age >=18 ) ? "you are elgibile for vote":"You are not eligible for vote")
+
+var age = 21;
+console.log((age >= 18) ? " you can drive":"you cannot drive");
