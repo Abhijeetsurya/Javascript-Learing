@@ -264,11 +264,30 @@ if(age >=18){
 
 // Conditional (Ternary Operator)
 
+//check are you eligible for vote
 var age = 17;
 console.log((age >=18 ) ? "you are elgibile for vote":"You are not eligible for vote")
 
+//check are you eligible for driving
 var age = 21;
 console.log((age >= 18) ? " you can drive":"you cannot drive");
 
+//check raining 
 var raining = true;
 console.log((raining = true) ? "Take umbrella" : "Don't take umbrella");
+
+//check number is even or odd
+var num = 5;
+console.log((num%2==0) ? "Even Number" : "Odd number");
+
+var num = 4;
+console.log((num%2==0) ? "Even Number" : "Odd Number");
+
+// Write a ternary operator that compares two strings, str1 and str2. If they are equal, 
+//assign "Strings are equal" to a variable; otherwise, assign "Strings are not equal."
+
+var a = "Hello";
+var b = "Hello";
+var c = "hello";
+console.log((a==b) ? "String is equal" : "String is not equal");
+console.log((a==c) ? "String is equal" : "String is not equal");
