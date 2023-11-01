@@ -269,3 +269,6 @@ console.log((age >=18 ) ? "you are elgibile for vote":"You are not eligible for 
 
 var age = 21;
 console.log((age >= 18) ? " you can drive":"you cannot drive");
+
+var raining = true;
+console.log((raining = true) ? "Take umbrella" : "Don't take umbrella");
