@@ -262,6 +262,19 @@ if(age >=18){
     console.log('You can drive only electric bike')
 }
 
+
+// Area of triangle, rectrangle, circle
+var area = "rectriangle";
+var PI = 3.142, l = 4, b = 5, r = 2, h = 3;
+if(area == "circle"){
+    console.log("Area of circle " + PI*r**2);
+} else if(area == "triangle"){
+    console.log("Area of trianlge " + 1/2*b*h);
+}else if(area == "rectriangle"){
+    console.log("Area of rectriangle " + l*b);
+}
+
+
 // Conditional (Ternary Operator)
 
 //check are you eligible for vote
@@ -291,3 +304,73 @@ var b = "Hello";
 var c = "hello";
 console.log((a==b) ? "String is equal" : "String is not equal");
 console.log((a==c) ? "String is equal" : "String is not equal");
+
+
+// Write a JavaScript expression using the ternary operator that checks if a variable isTrue is true. 
+// If it's true, assign the string "Yes" to result, otherwise assign "No".
+
+var a = true
+console.log((a==true) ? "Yes" : "No");
+
+
+//==============================================================================================================
+
+//Switch statement - Switch statement is used to perform different actions based on different conditions
+
+var area = "triangle"
+
+var PI = 3.142, l = 4, b = 5, r = 2, h = 3;
+
+switch(area){
+    case "circle":
+        console.log("Area of circle " + PI*r**2);
+        break;
+    case "triangle":
+        console.log("Area of trianlge " + 1/2*b*h);
+        break;
+    case "rectriangle":
+        console.log("Area of rectriangle " + l*b);   
+}
+
+
+//-------------------------------------------------------------------
+
+var area = "circle"
+
+var PI = 3.142, l = 4, b = 5, r = 2, h = 3;
+
+switch(area){
+    case "circle":
+        console.log("Area of circle " + PI*r**2);
+        break;
+    case "triangle":
+        console.log("Area of trianlge " + 1/2*b*h);
+        break;
+    case "rectriangle":
+        console.log("Area of rectriangle " + l*b);   
+}
+
+//------------------------------------------------------------------------------------------------
+
+var area = "rectriangle"
+
+var PI = 3.142, l = 4, b = 5, r = 2, h = 3;
+
+switch(area){
+    case "circle":
+        console.log("Area of circle " + PI*r**2);
+        break;
+    case "triangle":
+        console.log("Area of trianlge " + 1/2*b*h);
+        break;
+    case "rectriangle":
+        console.log("Area of rectriangle " + l*b);   
+}
+
+
+//=============================================================================================================================
+
+
+// while loop statement
+
+
