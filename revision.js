@@ -195,3 +195,35 @@ console.log(67 != 67);
 console.log(34 !== "34");
 
 console.log(56 !== 56);
+
+// greater than (>)
+
+console.log(89>56); 
+
+console.log(23>45);
+
+// less than (<)
+
+console.log(34<67);
+
+console.log(45<34);
+
+// greater than equal to (>=)
+
+console.log(78>=45);
+
+console.log(45>=56);
+
+console.log(89 >= 89);
+
+console.log(89 >= '89');
+
+// less than equal to (<=)
+
+console.log(45 <= 56);
+
+console.log(90 <= 56);
+
+console.log(45 <= 45);
+
+console.log(67 <= '67');
