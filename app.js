@@ -477,15 +477,12 @@ while(number_2<=20){
     number_2+=2;
 }
 
-var num = 23;
-while(num){
-    console.log(num);
-}
 
-// Continue the loop until num is less than or equal to 20.
 
-var num = 1;
-while(num >= 20){
-    console.log(num);
-    num++;
-}
+// do while loop statement 
+
+var a = 34;
+do{
+    console.log(a++);
+}while(a<= 40);
+
