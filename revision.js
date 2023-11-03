@@ -27,4 +27,5 @@ function myfun(){
 
 myfun()
 
-//console.log(num); we cannot access a variable created in function using var 
+//console.log(num); we cannot access a variable outside a function created using var 
+
