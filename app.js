@@ -442,8 +442,50 @@ console.log(result)
 //=============================================================================================================================
 
 
-// while loop statement
+// while loop statement - loops can execute a block of code a slong as a specified condition is true
 
+let num1 = 0;
 
+while(num1<=10){
+    console.log(num1);
+    num1++;
+}
 
+//----------------------------------------------------------------
 
+let num2 = 2;
+while(num2<=20){
+    console.log(num2);
+    num2++;
+}
+
+//---------------------------------------------------------------------------
+
+//Initialize a variable `num` to 2 (the first even number).
+
+var number_1 = 2;
+while(number_1<=20){
+    console.log(number_1);
+    number_1+=2;
+}
+
+// Use a while loop to iterate from num to 20.
+
+var number_2 = 10;
+while(number_2<=20){
+    console.log(number_2);
+    number_2+=2;
+}
+
+var num = 23;
+while(num){
+    console.log(num);
+}
+
+// Continue the loop until num is less than or equal to 20.
+
+var num = 1;
+while(num >= 20){
+    console.log(num);
+    num++;
+}
