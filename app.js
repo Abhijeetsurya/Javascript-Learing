@@ -233,7 +233,7 @@ console.log(!y);
 
 
 // string operator
-// concatenation operator (+) - use to join string 
+// concatenation operator (+)  use to join string 
 var myName = 'Abhijeet';
 console.log(myName + " Suryawanshi")
 

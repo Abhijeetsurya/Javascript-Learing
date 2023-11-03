@@ -227,3 +227,103 @@ console.log(90 <= 56);
 console.log(45 <= 45);
 
 console.log(67 <= '67');
+
+
+//====================================================================================================
+
+
+//logical operator
+
+// Logical AND (&&) - return true if both are true, if any one condition is false it will be false
+
+console.log(true && true);
+
+console.log(false && true);
+
+console.log(false&&false);
+
+// logcial OR (||) operator - if any one condition is true it will be true
+
+console.log(true||false);
+
+console.log(true||true);
+
+console.log(false || false);
+
+//logical NOT (!)operator - reverse the result
+
+console.log(!false);
+
+console.log(!true);
+
+
+//======================================================================================================
+
+//condition statement
+
+//if else - checking condition is true or false
+
+var n = 23;
+if(n%2==0){
+    console.log("even number");
+}else{
+    console.log('odd number');
+}
+
+var age = 18;
+if(age >= 18){
+    console.log('you can drive');
+}else{
+    console.log("you cannot drive");
+}
+
+
+var age = 16;
+if(age >= 18){
+    console.log("you can vote");
+}else{
+    console.log("you cannot vote");
+}
+
+//============================================================================================================
+
+//string operator (+)
+var lname = "suryawanshi";
+console.log('Abhijeet ' + lname);
+
+var fname = "abhijeet";
+var lname = "suryawanshi";
+console.log(fname +" "+ lname)
+
+
+// =======================================================================================================
+
+// ternary operator
+
+var age = 61;
+console.log((age>=60)?"you are eligible for pension":"you are not eligible for pension");
+
+var weather = 'raining';
+var result = (weather=="raining")?"take umbrella":"not need to take umbrella";
+console.log(result);
+
+//=========================================================================================================
+
+//switch statement
+
+var a = 2;
+switch(a){
+    case 1:
+        console.log("1");
+    break;
+    
+    case 2:
+        console.log("2");
+    break;
+    
+    case 3:
+        console.log("3");
+    break;    
+    
+}
+
