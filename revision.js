@@ -61,7 +61,73 @@ if(24=="24"){
     const num2 = 67;
     console.log(num2);
 }
-
 //console.log(num2); 
 
 
+//====================================================================================================
+
+
+// data types
+// undefined
+var x;
+console.log(x) 
+console.log(typeof(x)); // undefined
+
+// boolean
+
+var x1 = true;
+console.log(x1);
+console.log(typeof(x1)); //boolean
+
+
+//Number
+
+var y = 34;
+console.log(y);
+console.log(typeof(y)); //number
+
+var y1 = "Hello world";
+console.log(y1);
+console.log(typeof(y1)); // string
+
+
+//===========================================================================================================
+
+
+//operators
+
+// Assignment operator (=)
+
+var aa = 45;
+
+// addition assignment operator (+=)
+
+var bb = 45;
+bb +=5; // bb = bb + 5
+console.log(bb);
+
+// substraction assignment operator (-=)
+
+var cc = 69;
+cc -= 9; // cc = cc - 9
+console.log(cc);
+
+// Multiplication assignment operator (*=)
+
+var dd = 8;
+dd *= 6; // dd = dd - 6
+console.log(dd);
+
+// division assignment operator (/=)
+
+var ee = 45;
+ee /= 5; // ee = ee/5
+console.log(ee);
+
+//Remainder assignment operator (%=)
+
+var ff = 67;
+ff %= 6; // ff = ff%6
+console.log(ff);
+
+// exponentiation Assignment 
