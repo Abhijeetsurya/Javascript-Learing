@@ -375,6 +375,70 @@ switch(area){
 }
 
 
+var day = 2;
+
+var day_name;
+
+switch(day){
+    case 1:
+        day_name="sunday";
+    break;
+
+    case 2:
+        day_name="Monday";
+    break;
+
+    case 3:
+        day_name="tuesday";
+    break;
+    
+    case 4:
+        day_name="wednesday";
+    break;
+    
+    case 5:
+        day_name="thursday";
+    break;
+    
+    case 6:
+        day_name="friday";
+    break;
+    
+    case 7:
+        day_name="saturday";
+    break;
+
+    default:
+        day_name="invaild day";
+
+}
+
+console.log(day_name);
+
+var str ;
+
+var result;
+
+switch(typeof str){
+    case "number":
+        result="Number";
+    break;
+    
+    case "string":
+        result="string";
+    break;
+    
+    case "boolean":
+        result="boolean";
+    break;
+    
+    default:
+        result="something else";
+        
+}
+
+console.log(result)
+
 //=============================================================================================================================
 
 
