@@ -161,3 +161,37 @@ console.log(37%4);
 var In = 34;
 In++;
 console.log(In);
+
+// Decrement (--)
+
+var de = 56;
+de--;
+console.log(de);
+
+
+//======================================================================================================
+
+
+// comparison operator
+
+// Equal to (==)
+
+console.log(34 == 34);
+
+console.log(45 == 34);
+
+// eqaul tovalue & eqaul type (===)
+console.log(34 === 34); 
+
+console.log(23 === "23" );
+
+// not equal to (!=)
+
+console.log(23 != 45);
+
+console.log(67 != 67);
+
+//Not equal or not equal value (!==)
+console.log(34 !== "34");
+
+console.log(56 !== 56);
