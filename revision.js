@@ -130,4 +130,34 @@ var ff = 67;
 ff %= 6; // ff = ff%6
 console.log(ff);
 
-// exponentiation Assignment 
+// exponentiation Assignment (**=)
+
+var gg = 4;
+gg **= 2; // gg = gg**2
+console.log(gg);
+
+// Arithmetic operator
+
+// Addition (+)
+console.log(45+4);
+
+// substraction
+
+console.log(34 - 6);
+
+//Multiplication (*)
+console.log(4*4);
+
+//Exponentiation (**)
+console.log(6**2);
+
+//Division (/)
+console.log(34/2);
+
+// Modulus/Remainder (%)
+console.log(37%4);
+
+//Increment (++)
+var In = 34;
+In++;
+console.log(In);
