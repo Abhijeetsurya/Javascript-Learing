@@ -2,8 +2,15 @@ console.log("Hello")
 
 /* values and variables in javascript */
 
-var myName = "Abhijeet"
+
+// var is functional scoped 
+var myName = "Abhijeet" 
 console.log(myName)
+
+// let and const is block scoped 
+let Mycity = "Bhopal";
+
+const mystate = "M.P.";
 
 /*===========================variables naming rules======================================== */
 var myCity = "Chhindwara"  // This is vaild 
@@ -372,5 +379,7 @@ switch(area){
 
 
 // while loop statement
+
+
 
 
