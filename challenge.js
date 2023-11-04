@@ -128,6 +128,8 @@ if(score = 5){
     console.log("Oh No we lost the game");
 }
 
+//================================================================================================
+
 // write table of 8 using for loop
 
 for(var a = 8; a<=80; a+=8){
