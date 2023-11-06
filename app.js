@@ -614,7 +614,35 @@ let Anonymous1 = function(a, b){
     return a+b
 }
 
+
 console.log(Anonymous1(2, 3));
+
+
+//--------------------------------------------------------------------------------------------
+
+
+let Anonymous2 = function(x, y){
+    if(x>y){
+        return "x is greater";
+    }else{
+        return "y is greater";
+    }
+}
+
+console.log(Anonymous2(2, 3));
+
+
+
+
+
+//==========================================================================================================
+
+
+
+
+
+
+
 
 
 
