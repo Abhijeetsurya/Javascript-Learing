@@ -575,7 +575,31 @@ intro("Abhijeet", "Bhopal");
 
 
 
-
-
-
 //-----------------------------------------------------------------------------------------------
+
+
+
+//Function Expression
+
+function funcexp(a, b){
+    console.log(a%b);
+}
+
+var expreresult = funcexp(23, 2);
+
+
+
+//============================================================================================================
+
+
+//Retrun Keyword
+
+function add(a, b){
+    return a+b;
+}
+
+var add1 = add(6, 3);
+
+console.log("sum of two number is ", add1);
+
+

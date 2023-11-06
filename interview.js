@@ -38,3 +38,19 @@ console.log(a===b); //cheking value and data type is equal or not
 
 //================================================================================================================
 
+//  Que:- why use function ?
+//  Ans:- We can reuse the code define once and use anytime we need, we can use same code many times with differnet arguments for different result 
+
+function myfun(a, b){
+    console.log(a+b)
+}
+
+myfun(2, 3)
+
+
+myfun(67, 53);
+
+
+//---------------------------------------------------------------------------------------
+
+
