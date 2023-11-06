@@ -559,7 +559,7 @@ function multiply(x, y){
     return m;
 }
 
-console.log(multiply(2, 2))
+console.log(multiply(2, 3))
 
 
 //------------------------------------------------------------------------------------------------
