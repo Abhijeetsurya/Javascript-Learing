@@ -642,6 +642,51 @@ console.log(Anonymous2(2, 3));
 
 
 
+//********************************************************************************************** */
+
+
+//Modern Javascript ES6
+
+
+// let vs const vs var
+
+// let - in let we cannot redeclare variable with same name,
+// but we can reassing a value to variable which already declared
+//let is block scope we cannot access outside block a variable declared with let in a block
+
+let n = 23;
+
+// let n = 56;  this is not allow in let 
+
+n = 56; // we can reassing value to variable 
+
+if(23==23){
+    let n1 = 67;
+}
+
+// console.log(n1); we cannot acces outside a block
+
+//-------------------------------------------------------------------------
+
+// const - if we declare a variable with const we cannot reassing value to variable and redeclare variable name
+// const is block scope cannot acces a variable created in block with const outside a block
+
+const n2 = 21;
+
+// n2 = 23; we cannot reassing and redeclare in a variable created with const
+
+console.log(n2);
+
+if(21==21){
+    const n3 = "hello";
+}
+
+// console.log(n3); const is block scope we cannot access outside ablock which created with const in a block
+
+
+//------------------------------------------------------------------------------------------------
+
+
 
 
 
