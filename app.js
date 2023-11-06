@@ -499,3 +499,33 @@ for(var a = 2; a<=20; a+=2){
     console.log(a);
 }
 
+
+
+
+
+//=========================================================================================================================================================================
+
+
+
+
+//function - a function is block of code design to perform a particular task
+
+
+function myfun(){
+    console.log("I am abhijeet");
+}
+
+myfun()
+
+
+var fnum
+
+var snum
+
+function add(fnum, snum){
+    console.log(fnum+snum)
+}
+
+add(12, 23)
+
+
