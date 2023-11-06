@@ -603,3 +603,19 @@ var add1 = add(6, 3);
 console.log("sum of two number is ", add1);
 
 
+
+//======================================================================================================================
+
+
+
+//Anonymous Function 
+
+let Anonymous1 = function(a, b){
+    return a+b
+}
+
+console.log(Anonymous1(2, 3));
+
+
+
+
