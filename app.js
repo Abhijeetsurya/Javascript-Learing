@@ -571,7 +571,7 @@ function intro(name, country){
 
 intro("Jhon", "USA");
 
-intro("Abhijeet", "Bhopal")
+intro("Abhijeet", "Bhopal");
 
 
 
