@@ -565,7 +565,13 @@ console.log(multiply(2, 3))
 //------------------------------------------------------------------------------------------------
 
 
+function intro(name, country){
+    console.log("Hello My Name is " + name + " " +" I live in " + country);
+}
 
+intro("Jhon", "USA");
+
+intro("Abhijeet", "Bhopal")
 
 
 
