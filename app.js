@@ -708,3 +708,63 @@ myfunn()
 
 // console.log(mylastname);  we cannot acces outside function a variable created using var 
 
+
+
+//--------------------------------------------------------------------------------------------------
+
+
+//Template literals - use back-ticks(` `) rather than quotes (" ") to define a string
+
+var text = `Hello world`;
+
+var text = `He is often called "Abhi"`;
+
+var text = `The quick
+            brown fox
+            jumps over
+            the lazy dog`;
+
+//Interpolation  - allow expression in string
+
+var age = 21;
+console.log(`My Age is ${age}`);
+
+for( let a = 1; a<=10; a++){
+    let tableof = 4
+    console.log(`${tableof} * ${a} = ${tableof * a}`);
+}
+
+
+
+
+//======================================================================================================
+
+
+
+// Default Argument 
+
+function greet(name="Guest"){
+    console.log(`Hello ${name}`);
+}
+
+greet() // output is Hello Guest 
+greet('Abhi'); //output is Hello Abhi
+
+
+function multiply(a, b=2){
+    return a*b;
+}
+
+console.log(multiply(3)) //output is 6
+
+console.log(multiply(4, 6)) //output is 24
+
+
+
+//==============================================================================================================================
+
+
+
+
+
+
