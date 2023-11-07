@@ -687,8 +687,24 @@ if(21==21){
 //------------------------------------------------------------------------------------------------
 
 
+//var - var is functional scope, we can reassing and redeclare a variable created with var
+
+var myfirstname = "Abhijeet";
+
+var myfirstname = "Abhi";
+
+function myfunn(){
+    
+    if(true){
+        var mylastname = " suryawanshi";
+        console.log(myfirstname + mylastname)
+    }
+
+    console.log(mylastname); //we can use outside a block a variable created with var
+}
+
+myfunn()
 
 
-
-
+// console.log(mylastname);  we cannot acces outside function a variable created using var 
 
