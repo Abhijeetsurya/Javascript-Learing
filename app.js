@@ -765,6 +765,24 @@ console.log(multiply(4, 6)) //output is 24
 
 
 
+//Fat arrow/arrow function 
+
+// Arrow function without any parameter
+
+const greets = () =>{
+    return "Hello world!";
+}
+
+console.log(greets())
 
 
+//----------------------------------------------------------------------------------------------
+
+
+const addition1 = () =>{
+    let a = 5, b = 6;
+    return `Sum of Number is ${a+b}`;
+}
+
+console.log(addition1());
 
