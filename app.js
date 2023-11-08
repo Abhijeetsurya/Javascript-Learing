@@ -807,4 +807,76 @@ console.log(addition2());
 
 //Arrays - A variable which store more than one value, we can store more than one value in a variable
 
-var arr = ["apple", "banan", "Mango"];
+
+//Array Declaration
+
+var arr = ["apple", "banan", "Mango", 23, true];
+
+
+
+//Accessing Elements of array
+
+console.log(arr[1]); // Access index 1 value 
+
+console.log(arr[3]); // acces index 3 value
+
+console.log(arr[arr.length-1]); //access last element of array
+
+
+//Array Length
+
+console.log(arr.length)
+
+
+//for loop in array - return value one by one
+
+var arr = ["Apple", "Banana", "Orange"];
+
+for(var i = 0; i<arr.length; i++){
+    console.log(arr[i]);
+}
+
+ 
+
+var arr = [2, 4, 6, 8, 10];
+
+for(var i=0; i<arr.length; i++){
+    console.log(arr[i]);
+}
+
+
+//=================================================================================================
+
+
+//for-in loop in array - return index number
+
+var arr = ["Abhi", "Anu", "Ani"];
+
+for(let a in arr){
+    console.log(a);
+}
+
+
+var arr = [4, 8, 12, 26, 20, 24, 28, 32, 36, 40];
+
+for(let a in arr){
+    console.log(a);
+}
+
+
+//for-of loop in array - return elements
+
+var arr = [3, 6, 9, 12, 15, 18, 21, 24, 27, 30];
+
+for(i of arr){
+    console.log(i);
+}
+
+
+var arr = ["Apple", "cherry", "graphs", "pineapple"];
+
+for(i of arr){
+    console.log(i);
+}
+
+
