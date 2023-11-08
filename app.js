@@ -805,3 +805,6 @@ console.log(addition2());
 
 
 
+//Arrays - A variable which store more than one value, we can store more than one value in a variable
+
+var arr = ["apple", "banan", "Mango"];
