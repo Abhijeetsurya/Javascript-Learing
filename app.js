@@ -880,3 +880,20 @@ for(i of arr){
 }
 
 
+// forEach loop in array
+
+var arr = [5, 10, 15, 20, 25];
+arr.forEach(arr;){
+    console.log(arr)
+}
+
+
+
+
+
+var arr = [2, 3, 5, 6, 8];
+
+arr.forEach((a) => {
+    console.log(a+a)
+})
+
