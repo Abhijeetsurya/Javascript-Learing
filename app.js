@@ -889,14 +889,14 @@ arr.forEach(function(element, index, array){
     console.log(element, index, array);
 })
 
-
-
-
-
 var arr = [5, 10, 15, 20, 25];
 arr.forEach(arr => {
     console.log(arr)
 })
+
+
+//searching and filter in array
+
 
 
 
