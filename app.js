@@ -897,6 +897,16 @@ arr.forEach(arr => {
 
 //searching and filter in array
 
+//indexOf() method
+
+let fruits = ["Banana", "Orange", "Apple", "Mango", "Apple"];
+
+console.log(fruits);
+
+let index = fruits.indexOf("Apple", -1);
+
+console.log("Index of Apple", index);
+
 
 
 
