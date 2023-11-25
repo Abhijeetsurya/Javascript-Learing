@@ -863,6 +863,7 @@
 //     console.log(a);
 // }
 
+//------------------------------------------------------------------------
 
 // //for-of loop in array - return elements
 
@@ -880,6 +881,9 @@
 // }
 
 
+//-------------------------------------------------------------------------------------
+
+
 // // forEach loop in array
 
 // // use function in forEach - creating aynonomus function
@@ -893,6 +897,11 @@
 // arr.forEach(arr => {
 //     console.log(arr)
 // })
+
+
+
+//=================================================================================================
+
 
 
 // //searching and filter in array
@@ -911,7 +920,7 @@
 
 // console.log("index of apple from index 3", indexofapple)
 
-
+//---------------------------------------------------------------------------------------------------------------
 
 // //lastindexof - start searching from last
 
@@ -922,12 +931,18 @@
 // console.log(animal.lastIndexOf("Pig")); //if value not found return -1
 
 
+//----------------------------------------------------------------------------------------------------------
+
+
 // //includes - check value is present or not
 
 // let odd_num = [1, 3, 5, 7, 9, 11];
 
 
 // console.log(odd_num.includes(3)); // true value is present
+
+
+//-----------------------------------------------------------------------------------------------------
 
 
 // let price = [200, 350, 360, 400];
@@ -938,11 +953,42 @@
 
 // console.log(item_price);
 
+//-------------------------------------------------------------------------------------------------------
+
+//filter method 
+
+// let arr = [200, 300, 400, 500];
+
+// let price = arr.filter((elem, index)=>{
+//     return elem <= 400;
+// })
+
+// console.log(price);
+
+//----------------------------------------------------------------------------------------------
+
+// var num = [3, 6, 4, 2, 4];
+
+// console.log(num.sort());
+
+
+// var num = [89, 98, 87, 90];
+// console.log(num.sort());
 
 
 
+//--------------------------------------------------------------------------------------------------------
 
 
 
+//push
 
+let animals = ['pigs', "cows", "sheep"];
 
+animals.push("bull"); //add one item 
+
+console.log(animals);
+
+animals.push("hen", "rabbit"); //add multiple item
+
+console.log(animals)
