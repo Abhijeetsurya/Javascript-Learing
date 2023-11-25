@@ -897,15 +897,55 @@ arr.forEach(arr => {
 
 //searching and filter in array
 
-//indexOf() method
+//indexOf() method - search index 
 
 let fruits = ["Banana", "Orange", "Apple", "Mango", "Apple"];
 
 console.log(fruits);
 
-let index = fruits.indexOf("Apple", -1);
+let index = fruits.indexOf("Apple", -1); // give index no. from last
 
 console.log("Index of Apple", index);
+
+let indexofapple = fruits.indexOf("Apple", 3); // start searching from index 3
+
+console.log("index of apple from index 3", indexofapple)
+
+
+
+//lastindexof - start searching from last
+
+var animal = ["Dog", "Cow", "buffelo", "bull", "Cow", "Dog"];
+
+console.log("Index of Cow from last", animal.lastIndexOf("Cow"));
+
+console.log(animal.lastIndexOf("Pig")); //if value not found return -1
+
+
+//includes - check value is present or not
+
+let odd_num = [1, 3, 5, 7, 9, 11];
+
+
+console.log(odd_num.includes(3)); // true value is present
+
+
+let price = [200, 350, 360, 400];
+
+const item_price = price.find((currentvalue)=>{
+    return currentvalue < 370;
+});
+
+console.log(item_price);
+
+//for loop
+
+for (let i = 1; i < 5; i++) {
+    console.log("Abhijeet");
+  }
+  
+
+
 
 
 
