@@ -1,949 +1,944 @@
-console.log("Hello")
+// // console.log("Hello")
 
-/* values and variables in javascript */
+// /* values and variables in javascript */
 
 
-// var is functional scoped 
-var myName = "Abhijeet" 
-console.log(myName)
+// // var is functional scoped 
+// // var myName = "Abhijeet" 
+// // console.log(myName)
 
-// let and const is block scoped 
-let Mycity = "Bhopal";
+// // let and const is block scoped 
+// // let Mycity = "Bhopal";
 
-const mystate = "M.P.";
+// // const mystate = "M.P.";
 
-/*===========================variables naming rules======================================== */
-var myCity = "Chhindwara"  // This is vaild 
-console.log(myCity);
+// /*===========================variables naming rules======================================== */
+// // var myCity = "Chhindwara"  // This is vaild 
+// // console.log(myCity);
 
-var _myAge = 21; // This is vaild 
-console.log(_myAge);
+// // var _myAge = 21; // This is vaild 
+// // console.log(_myAge);
 
-var $country = "India" // This is vaild
-console.log($country);
+// // var $country = "India" // This is vaild
+// // console.log($country);
 
-var _1my_number = 9303940996; // This is vaild 
-console.log(_1my_number);
+// var _1my_number = 9303940996; // This is vaild 
+// console.log(_1my_number);
 
-//var &myname = "abhi";  //This is invaild
+// //var &myname = "abhi";  //This is invaild
 
-//var my number = 9303940996 // This is invaild
+// //var my number = 9303940996 // This is invaild
 
-//var 24myName = "Abhijeet"  //This is Invaild we cannot start variable name witha number
+// //var 24myName = "Abhijeet"  //This is Invaild we cannot start variable name witha number
 
-//var myname% = "Abhijeet" //This is invaild
+// //var myname% = "Abhijeet" //This is invaild
 
-/*=========================================================================================*/
+// /*=========================================================================================*/
 
 
-/*====================Data types============================*/
+// /*====================Data types============================*/
 
-var myname = "Abhijeet Suryawanshi" //string 
-console.log(myname);
-console.log(typeof (myname));
+// var myname = "Abhijeet Suryawanshi" //string 
+// console.log(myname);
+// console.log(typeof (myname));
 
-var myage = 21; //Number 
-console.log(myage);
-console.log(typeof (myage));
+// var myage = 21; //Number 
+// console.log(myage);
+// console.log(typeof (myage));
 
-var iAm = true; //Boolean
-console.log(iAm);
-console.log(typeof (iAm));
+// var iAm = true; //Boolean
+// console.log(iAm);
+// console.log(typeof (iAm));
 
-var iAm1 = false //Boolean
-console.log(iAm1);
-console.log(typeof (iAm1));
+// var iAm1 = false //Boolean
+// console.log(iAm1);
+// console.log(typeof (iAm1));
 
-//=======================================================================================================
+// //=======================================================================================================
 
-//Expressions and operator
+// //Expressions and operator
 
-//Assignment operator (=)
-var x = 23;
+// //Assignment operator (=)
+// var x = 23;
 
-//Addition assignment operator (+=)
-var x = 23;
-x += 5;
-console.log(x);
+// //Addition assignment operator (+=)
+// var x = 23;
+// x += 5;
+// console.log(x);
 
-//Substraction Assignment operator (-=)
-var x = 9;
-x -= 5;
-console.log(x);
+// //Substraction Assignment operator (-=)
+// var x = 9;
+// x -= 5;
+// console.log(x);
 
-//Multiplication Assignment operator (*=)
-var x = 4;
-x *= 3;
-console.log(x);
+// //Multiplication Assignment operator (*=)
+// var x = 4;
+// x *= 3;
+// console.log(x);
 
-//Division Assignment operator (/=)
-var x = 15;
-x /= 3;
-console.log(x);
+// //Division Assignment operator (/=)
+// var x = 15;
+// x /= 3;
+// console.log(x);
 
-//Remainder Assignment operator (%=)
-var x = 19;
-x %= 3;
-console.log(x);
+// //Remainder Assignment operator (%=)
+// var x = 19;
+// x %= 3;
+// console.log(x);
 
-//Exponentiation Assignment operator (**=)
-var x = 4;
-x **= 2;
-console.log(x);
+// //Exponentiation Assignment operator (**=)
+// var x = 4;
+// x **= 2;
+// console.log(x);
 
-//Bitwise Assignment operator 
-var x = 5 // Binary no. = 0101
-x &= 2;
-console.log(x);
+// //Bitwise Assignment operator 
+// var x = 5 // Binary no. = 0101
+// x &= 2;
+// console.log(x);
 
 
-//=====================================================================================================
+// //=====================================================================================================
 
-//Arithemetic operator
+// //Arithemetic operator
 
-// Addition operator (+)
-console.log(2+4);
+// // Addition operator (+)
+// console.log(2+4);
 
-//Substraction operator (-)
-console.log(12-7);
+// //Substraction operator (-)
+// console.log(12-7);
 
 
-//Multiplication operator (*)
-console.log(3*4);
+// //Multiplication operator (*)
+// console.log(3*4);
 
-//Division operator (/)
-console.log(12/4);
+// //Division operator (/)
+// console.log(12/4);
 
-//Modulus(remainder) operator (%)
-console.log(76%6);
+// //Modulus(remainder) operator (%)
+// console.log(76%6);
 
-//Exponentiation operator (**)
-console.log(4**2);
+// //Exponentiation operator (**)
+// console.log(4**2);
 
-//Postfix Increment operator (++)
-var a = 5;
-a++;
-console.log(a);
+// //Postfix Increment operator (++)
+// var a = 5;
+// a++;
+// console.log(a);
 
-//Postfix Decrement operator (--)
-var a = 8;
-a--;
-console.log(a);
+// //Postfix Decrement operator (--)
+// var a = 8;
+// a--;
+// console.log(a);
 
-//prefix Increment operator
+// //prefix Increment operator
 
-var a = 4;
-++a;
-console.log(a);
+// var a = 4;
+// ++a;
+// console.log(a);
 
-//prefix decrement operator
+// //prefix decrement operator
 
-var a = 8;
---a;
-console.log(a);
+// var a = 8;
+// --a;
+// console.log(a);
 
-//======================================================================================================================
+// //======================================================================================================================
 
 
-//Comparison operator
+// //Comparison operator
 
-// Equal to (==) operator
+// // Equal to (==) operator
 
-var a = 10;
-var b = 30;
-var c = 30;
-console.log(a==b); // false
-console.log(b==c); //true
-console.log(a==c); //false
+// var a = 10;
+// var b = 30;
+// var c = 30;
+// console.log(a==b); // false
+// console.log(b==c); //true
+// console.log(a==c); //false
 
-// Not Equal to (!=)
-var a = 10;
-var b = 30;
-var c = 30;
-console.log(a!=b); //true
-console.log(b!=c); //false
-console.log(a!=c); //true
+// // Not Equal to (!=)
+// var a = 10;
+// var b = 30;
+// var c = 30;
+// console.log(a!=b); //true
+// console.log(b!=c); //false
+// console.log(a!=c); //true
 
-// //Greater than (>)
-var a = 24;
-var b = 12;
-var c = 34;
-console.log(a > b); //true
-console.log(b > c); //false
-console.log(a > c); //false
+// // //Greater than (>)
+// var a = 24;
+// var b = 12;
+// var c = 34;
+// console.log(a > b); //true
+// console.log(b > c); //false
+// console.log(a > c); //false
 
-//Greater than equal to (>=)
-var a = 23;
-var b = 23;
-var c = 12;
-console.log(a >= b); //true
-console.log(b >= c); //true
-console.log(a >= c); //true
-console.log(c >= b); //false
+// //Greater than equal to (>=)
+// var a = 23;
+// var b = 23;
+// var c = 12;
+// console.log(a >= b); //true
+// console.log(b >= c); //true
+// console.log(a >= c); //true
+// console.log(c >= b); //false
 
-//less than (<)
-var a = 34;
-var b = 45;
-var c = 12;
-console.log(a < b); //true
-console.log(b < c); //false
-console.log(a < c); //false
-console.log(c < b); //true
+// //less than (<)
+// var a = 34;
+// var b = 45;
+// var c = 12;
+// console.log(a < b); //true
+// console.log(b < c); //false
+// console.log(a < c); //false
+// console.log(c < b); //true
 
 
-//================================================================================================================================
+// //================================================================================================================================
 
 
 
-//Logical operator
+// //Logical operator
 
-//logical AND (&&) operator - if both value is true, it return true
+// //logical AND (&&) operator - if both value is true, it return true
 
-var a = true;
-var b = false;
-var c = true;
+// var a = true;
+// var b = false;
+// var c = true;
 
-console.log(a && b); // false
-console.log(b && c); //false
-console.log(a && c); //true
+// console.log(a && b); // false
+// console.log(b && c); //false
+// console.log(a && c); //true
 
-//logical OR (||) operator - if any one is true, it return true
+// //logical OR (||) operator - if any one is true, it return true
 
-var x = true;
-var y = false;
-var z = true;
-var x1 = false
-console.log(x || y);
-console.log(x || z);
-console.log(y || z);
-console.log(y || x1);
+// var x = true;
+// var y = false;
+// var z = true;
+// var x1 = false
+// console.log(x || y);
+// console.log(x || z);
+// console.log(y || z);
+// console.log(y || x1);
 
-// logical NOT (!) operator - reverse the result
-var x = false
-console.log(!x);
+// // logical NOT (!) operator - reverse the result
+// var x = false
+// console.log(!x);
 
-var y = true;
-console.log(!y);
+// var y = true;
+// console.log(!y);
 
 
 
-//========================================================================================================================================
+// //========================================================================================================================================
 
 
 
 
-// string operator
-// concatenation operator (+)  use to join string 
-var myName = 'Abhijeet';
-console.log(myName + " Suryawanshi")
+// // string operator
+// // concatenation operator (+)  use to join string 
+// var myName = 'Abhijeet';
+// console.log(myName + " Suryawanshi")
 
-var fname = "Abhijeet";
-var lname = "Suryawanshi";
-var fullname = fname + lname;
-console.log(fullname);
+// var fname = "Abhijeet";
+// var lname = "Suryawanshi";
+// var fullname = fname + lname;
+// console.log(fullname);
 
-//===============================================================================================================================================================
+// //===============================================================================================================================================================
 
 
-// Control statement & Loops
+// // Control statement & Loops
 
-var age = 18;
+// var age = 18;
 
-if(age >= 18){
-    console.log("you are an adult");
-}else{
-    console.log("you are not an adult");
-}
+// if(age >= 18){
+//     console.log("you are an adult");
+// }else{
+//     console.log("you are not an adult");
+// }
 
-var age = 16;
-if(age >= 18){
-    console.log("you can vote");
-}else{
-    console.log("you cannot vote");
-}
+// var age = 16;
+// if(age >= 18){
+//     console.log("you can vote");
+// }else{
+//     console.log("you cannot vote");
+// }
 
-var age = 17;
-if(age >=18){
-    console.log("You can drive bike");
-}else{
-    console.log('You can drive only electric bike')
-}
+// var age = 17;
+// if(age >=18){
+//     console.log("You can drive bike");
+// }else{
+//     console.log('You can drive only electric bike')
+// }
 
 
-// Area of triangle, rectrangle, circle
-var area = "rectriangle";
-var PI = 3.142, l = 4, b = 5, r = 2, h = 3;
-if(area == "circle"){
-    console.log("Area of circle " + PI*r**2);
-} else if(area == "triangle"){
-    console.log("Area of trianlge " + 1/2*b*h);
-}else if(area == "rectriangle"){
-    console.log("Area of rectriangle " + l*b);
-}
+// // Area of triangle, rectrangle, circle
+// var area = "rectriangle";
+// var PI = 3.142, l = 4, b = 5, r = 2, h = 3;
+// if(area == "circle"){
+//     console.log("Area of circle " + PI*r**2);
+// } else if(area == "triangle"){
+//     console.log("Area of trianlge " + 1/2*b*h);
+// }else if(area == "rectriangle"){
+//     console.log("Area of rectriangle " + l*b);
+// }
 
 
-// Conditional (Ternary Operator)
+// // Conditional (Ternary Operator)
 
-//check are you eligible for vote
-var age = 17;
-console.log((age >=18 ) ? "you are elgibile for vote":"You are not eligible for vote")
+// //check are you eligible for vote
+// var age = 17;
+// console.log((age >=18 ) ? "you are elgibile for vote":"You are not eligible for vote")
 
-//check are you eligible for driving
-var age = 21;
-console.log((age >= 18) ? " you can drive":"you cannot drive");
+// //check are you eligible for driving
+// var age = 21;
+// console.log((age >= 18) ? " you can drive":"you cannot drive");
 
-//check raining 
-var raining = true;
-console.log((raining = true) ? "Take umbrella" : "Don't take umbrella");
+// //check raining 
+// var raining = true;
+// console.log((raining = true) ? "Take umbrella" : "Don't take umbrella");
 
-//check number is even or odd
-var num = 5;
-console.log((num%2==0) ? "Even Number" : "Odd number");
+// //check number is even or odd
+// var num = 5;
+// console.log((num%2==0) ? "Even Number" : "Odd number");
 
-var num = 4;
-console.log((num%2==0) ? "Even Number" : "Odd Number");
+// var num = 4;
+// console.log((num%2==0) ? "Even Number" : "Odd Number");
 
-// Write a ternary operator that compares two strings, str1 and str2. If they are equal, 
-//assign "Strings are equal" to a variable; otherwise, assign "Strings are not equal."
+// // Write a ternary operator that compares two strings, str1 and str2. If they are equal, 
+// //assign "Strings are equal" to a variable; otherwise, assign "Strings are not equal."
 
-var a = "Hello";
-var b = "Hello";
-var c = "hello";
-console.log((a==b) ? "String is equal" : "String is not equal");
-console.log((a==c) ? "String is equal" : "String is not equal");
+// var a = "Hello";
+// var b = "Hello";
+// var c = "hello";
+// console.log((a==b) ? "String is equal" : "String is not equal");
+// console.log((a==c) ? "String is equal" : "String is not equal");
 
 
-// Write a JavaScript expression using the ternary operator that checks if a variable isTrue is true. 
-// If it's true, assign the string "Yes" to result, otherwise assign "No".
+// // Write a JavaScript expression using the ternary operator that checks if a variable isTrue is true. 
+// // If it's true, assign the string "Yes" to result, otherwise assign "No".
 
-var a = true
-console.log((a==true) ? "Yes" : "No");
+// var a = true
+// console.log((a==true) ? "Yes" : "No");
 
 
-//==============================================================================================================
+// //==============================================================================================================
 
-//Switch statement - Switch statement is used to perform different actions based on different conditions
+// //Switch statement - Switch statement is used to perform different actions based on different conditions
 
-var area = "triangle"
+// var area = "triangle"
 
-var PI = 3.142, l = 4, b = 5, r = 2, h = 3;
+// var PI = 3.142, l = 4, b = 5, r = 2, h = 3;
 
-switch(area){
-    case "circle":
-        console.log("Area of circle " + PI*r**2);
-        break;
-    case "triangle":
-        console.log("Area of trianlge " + 1/2*b*h);
-        break;
-    case "rectriangle":
-        console.log("Area of rectriangle " + l*b);   
-}
+// switch(area){
+//     case "circle":
+//         console.log("Area of circle " + PI*r**2);
+//         break;
+//     case "triangle":
+//         console.log("Area of trianlge " + 1/2*b*h);
+//         break;
+//     case "rectriangle":
+//         console.log("Area of rectriangle " + l*b);   
+// }
 
 
-//-------------------------------------------------------------------
+// //-------------------------------------------------------------------
 
-var area = "circle"
+// var area = "circle"
 
-var PI = 3.142, l = 4, b = 5, r = 2, h = 3;
+// var PI = 3.142, l = 4, b = 5, r = 2, h = 3;
 
-switch(area){
-    case "circle":
-        console.log("Area of circle " + PI*r**2);
-        break;
-    case "triangle":
-        console.log("Area of trianlge " + 1/2*b*h);
-        break;
-    case "rectriangle":
-        console.log("Area of rectriangle " + l*b);   
-}
+// switch(area){
+//     case "circle":
+//         console.log("Area of circle " + PI*r**2);
+//         break;
+//     case "triangle":
+//         console.log("Area of trianlge " + 1/2*b*h);
+//         break;
+//     case "rectriangle":
+//         console.log("Area of rectriangle " + l*b);   
+// }
 
-//------------------------------------------------------------------------------------------------
+// //------------------------------------------------------------------------------------------------
 
-var area = "rectriangle"
+// var area = "rectriangle"
 
-var PI = 3.142, l = 4, b = 5, r = 2, h = 3;
+// var PI = 3.142, l = 4, b = 5, r = 2, h = 3;
 
-switch(area){
-    case "circle":
-        console.log("Area of circle " + PI*r**2);
-        break;
-    case "triangle":
-        console.log("Area of trianlge " + 1/2*b*h);
-        break;
-    case "rectriangle":
-        console.log("Area of rectriangle " + l*b);   
-}
+// switch(area){
+//     case "circle":
+//         console.log("Area of circle " + PI*r**2);
+//         break;
+//     case "triangle":
+//         console.log("Area of trianlge " + 1/2*b*h);
+//         break;
+//     case "rectriangle":
+//         console.log("Area of rectriangle " + l*b);   
+// }
 
 
-var day = 2;
+// var day = 2;
 
-var day_name;
+// var day_name;
 
-switch(day){
-    case 1:
-        day_name="sunday";
-    break;
+// switch(day){
+//     case 1:
+//         day_name="sunday";
+//     break;
 
-    case 2:
-        day_name="Monday";
-    break;
+//     case 2:
+//         day_name="Monday";
+//     break;
 
-    case 3:
-        day_name="tuesday";
-    break;
+//     case 3:
+//         day_name="tuesday";
+//     break;
     
-    case 4:
-        day_name="wednesday";
-    break;
+//     case 4:
+//         day_name="wednesday";
+//     break;
     
-    case 5:
-        day_name="thursday";
-    break;
+//     case 5:
+//         day_name="thursday";
+//     break;
     
-    case 6:
-        day_name="friday";
-    break;
+//     case 6:
+//         day_name="friday";
+//     break;
     
-    case 7:
-        day_name="saturday";
-    break;
+//     case 7:
+//         day_name="saturday";
+//     break;
 
-    default:
-        day_name="invaild day";
+//     default:
+//         day_name="invaild day";
 
-}
+// }
 
-console.log(day_name);
+// console.log(day_name);
 
-var str ;
+// var str ;
 
-var result;
+// var result;
 
-switch(typeof str){
-    case "number":
-        result="Number";
-    break;
+// switch(typeof str){
+//     case "number":
+//         result="Number";
+//     break;
     
-    case "string":
-        result="string";
-    break;
+//     case "string":
+//         result="string";
+//     break;
     
-    case "boolean":
-        result="boolean";
-    break;
+//     case "boolean":
+//         result="boolean";
+//     break;
     
-    default:
-        result="something else";
+//     default:
+//         result="something else";
         
-}
+// }
 
-console.log(result)
+// console.log(result)
 
-//=============================================================================================================================
+// //=============================================================================================================================
 
 
-// while loop statement - loops can execute a block of code a slong as a specified condition is true
+// // while loop statement - loops can execute a block of code a slong as a specified condition is true
 
-let num1 = 0;
+// let num1 = 0;
 
-while(num1<=10){
-    console.log(num1);
-    num1++;
-}
+// while(num1<=10){
+//     console.log(num1);
+//     num1++;
+// }
 
-//----------------------------------------------------------------
+// //----------------------------------------------------------------
 
-let num2 = 2;
-while(num2<=20){
-    console.log(num2);
-    num2++;
-}
+// let num2 = 2;
+// while(num2<=20){
+//     console.log(num2);
+//     num2++;
+// }
 
-//---------------------------------------------------------------------------
+// //---------------------------------------------------------------------------
 
-//Initialize a variable `num` to 2 (the first even number).
+// //Initialize a variable `num` to 2 (the first even number).
 
-var number_1 = 2;
-while(number_1<=20){
-    console.log(number_1);
-    number_1+=2;
-}
+// var number_1 = 2;
+// while(number_1<=20){
+//     console.log(number_1);
+//     number_1+=2;
+// }
 
-// Use a while loop to iterate from num to 20.
+// // Use a while loop to iterate from num to 20.
 
-var number_2 = 10;
-while(number_2<=20){
-    console.log(number_2);
-    number_2+=2;
-}
+// var number_2 = 10;
+// while(number_2<=20){
+//     console.log(number_2);
+//     number_2+=2;
+// }
 
 
 
-// do while loop statement 
+// // do while loop statement 
 
-var a = 34;
-do{
-    console.log(a++);
-}while(a<= 40);
+// var a = 34;
+// do{
+//     console.log(a++);
+// }while(a<= 40);
 
 
-//===========================================================================================================
+// //===========================================================================================================
 
-//for loop
+// //for loop
 
-for(var a = 1; a <= 10; a+=2){
-    console.log(a);
-}
+// for(var a = 1; a <= 10; a+=2){
+//     console.log(a);
+// }
 
-for(var a = 2; a<=20; a+=2){
-    console.log(a);
-}
+// for(var a = 2; a<=20; a+=2){
+//     console.log(a);
+// }
 
 
 
 
 
-//=========================================================================================================================================================================
+// //=========================================================================================================================================================================
 
 
 
 
-//function - a function is block of code design to perform a particular task
+// //function - a function is block of code design to perform a particular task
 
 
-function myfun(){
-    console.log("I am abhijeet");
-}
+// function myfun(){
+//     console.log("I am abhijeet");
+// }
 
-myfun()
+// myfun()
 
 
-var fnum
+// var fnum
 
-var snum
+// var snum
 
-function add(fnum, snum){
-    console.log(fnum+snum)
-}
+// function add(fnum, snum){
+//     console.log(fnum+snum)
+// }
 
-add(12, 23)
+// add(12, 23)
 
 
-//-----------------------------------------------------------------------------------------------
+// //-----------------------------------------------------------------------------------------------
 
 
-function checkvalue(a){
-    var a;
-    if(a>=1){
-        console.log("Positive Number");
-    }else{
-        console.log("Negative Number");
-    }
-}
+// function checkvalue(a){
+//     var a;
+//     if(a>=1){
+//         console.log("Positive Number");
+//     }else{
+//         console.log("Negative Number");
+//     }
+// }
 
-checkvalue(23)
+// checkvalue(23)
 
 
-//-------------------------------------------------------------------------------------
+// //-------------------------------------------------------------------------------------
 
-function sub(a, b){
-    console.log(a-b);
-}
+// function sub(a, b){
+//     console.log(a-b);
+// }
 
-sub(2, 2)
+// sub(2, 2)
 
-//-----------------------------------------------------------------------------------------------
+// //-----------------------------------------------------------------------------------------------
 
-function multiply(x, y){
-    var m=x*y;
-    return m;
-}
+// function multiply(x, y){
+//     var m=x*y;
+//     return m;
+// }
 
-console.log(multiply(2, 3))
+// console.log(multiply(2, 3))
 
 
-//------------------------------------------------------------------------------------------------
+// //------------------------------------------------------------------------------------------------
 
 
-function intro(name, country){
-    console.log("Hello My Name is " + name + " " +" I live in " + country);
-}
+// function intro(name, country){
+//     console.log("Hello My Name is " + name + " " +" I live in " + country);
+// }
 
-intro("Jhon", "USA");
+// intro("Jhon", "USA");
 
-intro("Abhijeet", "Bhopal");
+// intro("Abhijeet", "Bhopal");
 
 
 
-//-----------------------------------------------------------------------------------------------
+// //-----------------------------------------------------------------------------------------------
 
 
 
-//Function Expression
+// //Function Expression
 
-function funcexp(a, b){
-    console.log(a%b);
-}
+// function funcexp(a, b){
+//     console.log(a%b);
+// }
 
-var expreresult = funcexp(23, 2);
+// var expreresult = funcexp(23, 2);
 
 
 
-//============================================================================================================
+// //============================================================================================================
 
 
-//Retrun Keyword
+// //Retrun Keyword
 
-function add(a, b){
-    return a+b;
-}
+// function add(a, b){
+//     return a+b;
+// }
 
-var add1 = add(6, 3);
+// var add1 = add(6, 3);
 
-console.log("sum of two number is ", add1);
+// console.log("sum of two number is ", add1);
 
 
 
-//======================================================================================================================
+// //======================================================================================================================
 
 
 
-//Anonymous Function 
+// //Anonymous Function 
 
-let Anonymous1 = function(a, b){
-    return a+b
-}
+// let Anonymous1 = function(a, b){
+//     return a+b
+// }
 
 
-console.log(Anonymous1(2, 3));
+// console.log(Anonymous1(2, 3));
 
 
-//--------------------------------------------------------------------------------------------
+// //--------------------------------------------------------------------------------------------
 
 
-let Anonymous2 = function(x, y){
-    if(x>y){
-        return "x is greater";
-    }else{
-        return "y is greater";
-    }
-}
+// let Anonymous2 = function(x, y){
+//     if(x>y){
+//         return "x is greater";
+//     }else{
+//         return "y is greater";
+//     }
+// }
 
-console.log(Anonymous2(2, 3));
+// console.log(Anonymous2(2, 3));
 
 
 
 
 
-//==========================================================================================================
+// //==========================================================================================================
 
 
 
 
 
 
-//********************************************************************************************** */
+// //********************************************************************************************** */
 
 
-//Modern Javascript ES6
+// //Modern Javascript ES6
 
 
-// let vs const vs var
+// // let vs const vs var
 
-// let - in let we cannot redeclare variable with same name,
-// but we can reassing a value to variable which already declared
-//let is block scope we cannot access outside block a variable declared with let in a block
+// // let - in let we cannot redeclare variable with same name,
+// // but we can reassing a value to variable which already declared
+// //let is block scope we cannot access outside block a variable declared with let in a block
 
-let n = 23;
+// let n = 23;
 
-// let n = 56;  this is not allow in let 
+// // let n = 56;  this is not allow in let 
 
-n = 56; // we can reassing value to variable 
+// n = 56; // we can reassing value to variable 
 
-if(23==23){
-    let n1 = 67;
-}
+// if(23==23){
+//     let n1 = 67;
+// }
 
-// console.log(n1); we cannot acces outside a block
+// // console.log(n1); we cannot acces outside a block
 
-//-------------------------------------------------------------------------
+// //-------------------------------------------------------------------------
 
-// const - if we declare a variable with const we cannot reassing value to variable and redeclare variable name
-// const is block scope cannot acces a variable created in block with const outside a block
+// // const - if we declare a variable with const we cannot reassing value to variable and redeclare variable name
+// // const is block scope cannot acces a variable created in block with const outside a block
 
-const n2 = 21;
+// const n2 = 21;
 
-// n2 = 23; we cannot reassing and redeclare in a variable created with const
+// // n2 = 23; we cannot reassing and redeclare in a variable created with const
 
-console.log(n2);
+// console.log(n2);
 
-if(21==21){
-    const n3 = "hello";
-}
+// if(21==21){
+//     const n3 = "hello";
+// }
 
-// console.log(n3); const is block scope we cannot access outside ablock which created with const in a block
+// // console.log(n3); const is block scope we cannot access outside ablock which created with const in a block
 
 
-//------------------------------------------------------------------------------------------------
+// //------------------------------------------------------------------------------------------------
 
 
-//var - var is functional scope, we can reassing and redeclare a variable created with var
+// //var - var is functional scope, we can reassing and redeclare a variable created with var
 
-var myfirstname = "Abhijeet";
+// var myfirstname = "Abhijeet";
 
-var myfirstname = "Abhi";
+// var myfirstname = "Abhi";
 
-function myfunn(){
+// function myfunn(){
     
-    if(true){
-        var mylastname = " suryawanshi";
-        console.log(myfirstname + mylastname)
-    }
+//     if(true){
+//         var mylastname = " suryawanshi";
+//         console.log(myfirstname + mylastname)
+//     }
 
-    console.log(mylastname); //we can use outside a block a variable created with var
-}
+//     console.log(mylastname); //we can use outside a block a variable created with var
+// }
 
-myfunn()
+// myfunn()
 
 
-// console.log(mylastname);  we cannot acces outside function a variable created using var 
+// // console.log(mylastname);  we cannot acces outside function a variable created using var 
 
 
 
-//--------------------------------------------------------------------------------------------------
+// //--------------------------------------------------------------------------------------------------
 
 
-//Template literals - use back-ticks(` `) rather than quotes (" ") to define a string
+// //Template literals - use back-ticks(` `) rather than quotes (" ") to define a string
 
-var text = `Hello world`;
+// var text = `Hello world`;
 
-var text = `He is often called "Abhi"`;
+// var text = `He is often called "Abhi"`;
 
-var text = `The quick
-            brown fox
-            jumps over
-            the lazy dog`;
+// var text = `The quick
+//             brown fox
+//             jumps over
+//             the lazy dog`;
 
-//Interpolation  - allow expression in string
+// //Interpolation  - allow expression in string
 
-var age = 21;
-console.log(`My Age is ${age}`);
+// var age = 21;
+// console.log(`My Age is ${age}`);
 
-for( let a = 1; a<=10; a++){
-    let tableof = 4
-    console.log(`${tableof} * ${a} = ${tableof * a}`);
-}
+// for( let a = 1; a<=10; a++){
+//     let tableof = 4
+//     console.log(`${tableof} * ${a} = ${tableof * a}`);
+// }
 
 
 
 
-//======================================================================================================
+// //======================================================================================================
 
 
 
-// Default Argument 
+// // Default Argument 
 
-function greet(name="Guest"){
-    console.log(`Hello ${name}`);
-}
+// function greet(name="Guest"){
+//     console.log(`Hello ${name}`);
+// }
 
-greet() // output is Hello Guest 
-greet('Abhi'); //output is Hello Abhi
+// greet() // output is Hello Guest 
+// greet('Abhi'); //output is Hello Abhi
 
 
-function multiply(a, b=2){
-    return a*b;
-}
+// function multiply(a, b=2){
+//     return a*b;
+// }
 
-console.log(multiply(3)) //output is 6
+// console.log(multiply(3)) //output is 6
 
-console.log(multiply(4, 6)) //output is 24
+// console.log(multiply(4, 6)) //output is 24
 
 
 
-//==============================================================================================================================
+// //==============================================================================================================================
 
 
 
-//Fat arrow/arrow function 
+// //Fat arrow/arrow function 
 
-// Arrow function without any parameter
+// // Arrow function without any parameter
 
-const greets = () =>{
-    return "Hello world!";
-}
+// const greets = () =>{
+//     return "Hello world!";
+// }
 
-console.log(greets())
+// console.log(greets())
 
 
-//----------------------------------------------------------------------------------------------
+// //----------------------------------------------------------------------------------------------
 
 
-const addition1 = () =>{
-    let a = 5, b = 6;
-    return `Sum of Number is ${a+b}`;
-}
+// const addition1 = () =>{
+//     let a = 5, b = 6;
+//     return `Sum of Number is ${a+b}`;
+// }
 
-console.log(addition1());
+// console.log(addition1());
 
 
 
-//---------------------------------------------------------------------------------------------
+// //---------------------------------------------------------------------------------------------
 
 
-//shortest way to write arrow function
+// //shortest way to write arrow function
 
-let addition2 = () => `Sum of 6 and 8 = ${(a=6)+(b=8)}`;
+// let addition2 = () => `Sum of 6 and 8 = ${(a=6)+(b=8)}`;
 
-console.log(addition2());
+// console.log(addition2());
 
 
 
 
 
-//===============================================================================================================================
+// //===============================================================================================================================
 
 
 
-//Arrays - A variable which store more than one value, we can store more than one value in a variable
+// //Arrays - A variable which store more than one value, we can store more than one value in a variable
 
 
-//Array Declaration
+// //Array Declaration
 
-var arr = ["apple", "banan", "Mango", 23, true];
+// var arr = ["apple", "banan", "Mango", 23, true];
 
 
 
-//Accessing Elements of array
+// //Accessing Elements of array
 
-console.log(arr[1]); // Access index 1 value 
+// console.log(arr[1]); // Access index 1 value 
 
-console.log(arr[3]); // acces index 3 value
+// console.log(arr[3]); // acces index 3 value
 
-console.log(arr[arr.length-1]); //access last element of array
+// console.log(arr[arr.length-1]); //access last element of array
 
 
-//Array Length
+// //Array Length
 
-console.log(arr.length)
+// console.log(arr.length)
 
 
-//for loop in array - return value one by one
+// //for loop in array - return value one by one
 
-var arr = ["Apple", "Banana", "Orange"];
+// var arr = ["Apple", "Banana", "Orange"];
 
-for(var i = 0; i<arr.length; i++){
-    console.log(arr[i]);
-}
+// for(var i = 0; i<arr.length; i++){
+//     console.log(arr[i]);
+// }
 
  
 
-var arr = [2, 4, 6, 8, 10];
+// var arr = [2, 4, 6, 8, 10];
 
-for(var i=0; i<arr.length; i++){
-    console.log(arr[i]);
-}
-
-
-//=================================================================================================
+// for(var i=0; i<arr.length; i++){
+//     console.log(arr[i]);
+// }
 
 
-//for-in loop in array - return index number
-
-var arr = ["Abhi", "Anu", "Ani"];
-
-for(let a in arr){
-    console.log(a);
-}
+// //=================================================================================================
 
 
-var arr = [4, 8, 12, 26, 20, 24, 28, 32, 36, 40];
+// //for-in loop in array - return index number
 
-for(let a in arr){
-    console.log(a);
-}
+// var arr = ["Abhi", "Anu", "Ani"];
 
-
-//for-of loop in array - return elements
-
-var arr = [3, 6, 9, 12, 15, 18, 21, 24, 27, 30];
-
-for(i of arr){
-    console.log(i);
-}
+// for(let a in arr){
+//     console.log(a);
+// }
 
 
-var arr = ["Apple", "cherry", "graphs", "pineapple"];
+// var arr = [4, 8, 12, 26, 20, 24, 28, 32, 36, 40];
 
-for(i of arr){
-    console.log(i);
-}
-
-
-// forEach loop in array
-
-// use function in forEach - creating aynonomus function
-
-var arr = ["BMW", "Volvo", "Mini"];
-arr.forEach(function(element, index, array){
-    console.log(element, index, array);
-})
-
-var arr = [5, 10, 15, 20, 25];
-arr.forEach(arr => {
-    console.log(arr)
-})
+// for(let a in arr){
+//     console.log(a);
+// }
 
 
-//searching and filter in array
+// //for-of loop in array - return elements
 
-//indexOf() method - search index 
+// var arr = [3, 6, 9, 12, 15, 18, 21, 24, 27, 30];
 
-let fruits = ["Banana", "Orange", "Apple", "Mango", "Apple"];
-
-console.log(fruits);
-
-let index = fruits.indexOf("Apple", -1); // give index no. from last
-
-console.log("Index of Apple", index);
-
-let indexofapple = fruits.indexOf("Apple", 3); // start searching from index 3
-
-console.log("index of apple from index 3", indexofapple)
+// for(i of arr){
+//     console.log(i);
+// }
 
 
+// var arr = ["Apple", "cherry", "graphs", "pineapple"];
 
-//lastindexof - start searching from last
-
-var animal = ["Dog", "Cow", "buffelo", "bull", "Cow", "Dog"];
-
-console.log("Index of Cow from last", animal.lastIndexOf("Cow"));
-
-console.log(animal.lastIndexOf("Pig")); //if value not found return -1
+// for(i of arr){
+//     console.log(i);
+// }
 
 
-//includes - check value is present or not
+// // forEach loop in array
 
-let odd_num = [1, 3, 5, 7, 9, 11];
+// // use function in forEach - creating aynonomus function
+
+// var arr = ["BMW", "Volvo", "Mini"];
+// arr.forEach(function(element, index, array){
+//     console.log(element, index, array);
+// })
+
+// var arr = [5, 10, 15, 20, 25];
+// arr.forEach(arr => {
+//     console.log(arr)
+// })
 
 
-console.log(odd_num.includes(3)); // true value is present
+// //searching and filter in array
+
+// //indexOf() method - search index 
+
+// let fruits = ["Banana", "Orange", "Apple", "Mango", "Apple"];
+
+// console.log(fruits);
+
+// let index = fruits.indexOf("Apple", -1); // give index no. from last
+
+// console.log("Index of Apple", index);
+
+// let indexofapple = fruits.indexOf("Apple", 3); // start searching from index 3
+
+// console.log("index of apple from index 3", indexofapple)
 
 
-let price = [200, 350, 360, 400];
 
-const item_price = price.find((currentvalue)=>{
-    return currentvalue < 370;
-});
+// //lastindexof - start searching from last
 
-console.log(item_price);
+// var animal = ["Dog", "Cow", "buffelo", "bull", "Cow", "Dog"];
 
-//for loop
+// console.log("Index of Cow from last", animal.lastIndexOf("Cow"));
 
-for (let i = 1; i < 5; i++) {
-    console.log("Abhijeet");
-  }
-  
+// console.log(animal.lastIndexOf("Pig")); //if value not found return -1
+
+
+// //includes - check value is present or not
+
+// let odd_num = [1, 3, 5, 7, 9, 11];
+
+
+// console.log(odd_num.includes(3)); // true value is present
+
+
+// let price = [200, 350, 360, 400];
+
+// const item_price = price.find((currentvalue)=>{
+//     return currentvalue < 370;
+// });
+
+// console.log(item_price);
+
+
 
 
 
