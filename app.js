@@ -983,12 +983,49 @@
 
 //push
 
-let animals = ['pigs', "cows", "sheep"];
+// let animals = ['pigs', "cows", "sheep"];
 
-animals.push("bull"); //add one item 
+// animals.push("bull"); //add one item 
 
-console.log(animals);
+// console.log(animals);
 
-animals.push("hen", "rabbit"); //add multiple item
+// animals.push("hen", "rabbit"); //add multiple item
 
-console.log(animals)
+// console.log(animals)
+
+
+
+//===============================================================================================================================
+//=======================================================================================================================================
+//=======================================================================================================================================
+
+
+// Array
+
+// const languages = ["Javascript", "Python", "Java", "C++"];
+
+// console.log(languages)
+
+// console.log(languages);
+// console.log(languages.length);  //length method
+
+// console.log(languages[2]); //access element by index number
+
+// languages.push("Dart");  //add element in last 
+
+// console.log(languages)
+
+// languages.unshift("Rust"); //add element in start
+// console.log(languages);
+
+// languages.pop() // Remove the last element of array
+// console.log(languages);  
+
+
+// languages.shift(); //shift method removes the first element of array
+// console.log(languages);
+
+
+
+
+
