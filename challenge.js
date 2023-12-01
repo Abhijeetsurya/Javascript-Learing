@@ -153,3 +153,31 @@ for(var a = 9; a<=90; a+=9){
 for(var a=12; a<=120; a+=12){
     console.log(a);
 }
+
+
+//Add Dec at the end of array
+
+// const months = ["Jan", "Feb", "Mar", "Apr", "May", "June", "July", "Aug", "Sep", "Oct", "Nov"];
+
+// console.log(months);
+
+// months.splice("Jan");
+// console.log(months)months.push("Dec");
+
+// 
+
+
+//what is the return value of splice method
+
+// const splicemonth = months.splice(months.splice(months.length, 3, "Feb"));
+
+// console.log(splicemonth);
+
+//Replace March to march
+
+const months = ["Jan", "Feb", "mar", "Apr", "May", "June", "July", "Aug", "Sep", "Oct", "Nov"];
+
+
+months.splice(2, 1, "March");
+
+console.log(months);
