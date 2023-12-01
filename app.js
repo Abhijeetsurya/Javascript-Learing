@@ -1000,7 +1000,7 @@
 //=======================================================================================================================================
 
 
-// Array
+ // Array 
 
 // const languages = ["Javascript", "Python", "Java", "C++"];
 
@@ -1027,5 +1027,55 @@
 
 
 
+//--------------------------------------------------------------------------------------------
+
+
+//map -  create a new array by performing some operation on each array element, do not change in original array
+
+// let arr  = [3, 4, 5, 6, 8]
+
+// let r = arr.map((value)=>{
+//     return value+1
+// })
+
+// console.log(r)
+
+
+// let arr = [3, 5, 7, 9];
+
+// let new_arr = arr.map((value)=>{
+//     return value%2
+// })
+
+// console.log(new_arr)
+
+
+//-----------------------------------------------------------------------------------------------
+
+
+
+// reduce - reduce method run a reducer function which accumalate result in single value
+
+// let arr = [45, 3, 2, 8]
+
+// let result = arr.reduce((value)=>{
+//     return value/2;
+// })
+
+// console.log(result)
+
+
+//------------------------------------------------------------------------------------------------------
+
+
+// filter - filter an array with values that passes a test, create a new array
+
+// let arr = [18, 19, 20, 21, 22, 23, 24]
+
+// let r = arr.filter((value)=>{
+//     return value<21;
+// })
+
+// console.log(r)
 
 
