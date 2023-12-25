@@ -1000,7 +1000,7 @@
 //=======================================================================================================================================
 
 
- // Array 
+ // Array
 
 // const languages = ["Javascript", "Python", "Java", "C++"];
 
@@ -1028,7 +1028,6 @@
 
 
 //--------------------------------------------------------------------------------------------
-
 
 //map -  create a new array by performing some operation on each array element, do not change in original array
 
@@ -1078,4 +1077,6 @@
 
 // console.log(r)
 
+
+//Map, reduce, filter 
 

@@ -202,3 +202,10 @@ console.log(newArr)
 
 
 //---------------------------------------------------------------------
+let arr1 = [2, 4, 9, 14, 16]
+
+let newArr1 = arr1.filter((value)=>{
+    return value > 9
+})
+
+console.log(newArr1)
