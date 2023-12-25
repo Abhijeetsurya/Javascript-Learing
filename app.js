@@ -1064,6 +1064,23 @@
 // console.log(result)
 
 
+// let arr = [2, 4, 6, 8]
+
+// let new_arr = arr.reduce((pervious_calu, curvalue)=>{
+//     return pervious_calu + curvalue
+// })
+
+// console.log(new_arr)
+
+
+// let arr = [4, 8, 16, 38]
+
+// let new_arr = arr.reduce((previous_res, curvalue)=>{
+//     return curvalue - previous_res
+// })
+
+// console.log(new_arr)
+
 //------------------------------------------------------------------------------------------------------
 
 
@@ -1078,5 +1095,5 @@
 // console.log(r)
 
 
-//Map, reduce, filter 
+
 

@@ -202,6 +202,8 @@ console.log(newArr)
 
 
 //---------------------------------------------------------------------
+
+
 let arr1 = [2, 4, 9, 14, 16]
 
 let newArr1 = arr1.filter((value)=>{
@@ -209,3 +211,38 @@ let newArr1 = arr1.filter((value)=>{
 })
 
 console.log(newArr1)
+
+
+//-----------------------------------------------------------------------------------------------
+
+
+// Que 1. Find the square root of each element in an array?
+
+let Arr_Num = [25, 36, 49, 64, 81]
+
+let Square_Arr = Arr_Num.map((value)=>{
+    return Math.sqrt(value)
+})
+
+console.log(Square_Arr)
+
+
+// Que 2. Multiply each element by 2 and return only those elements which are greater than 10 ?
+
+let num_1 = [2, 3, 4, 6, 8]
+
+let multiple_of = num_1.map((value)=>{
+    return value*2
+}).filter((value)=>{
+    return value > 10
+})
+
+console.log(multiple_of)
+
+
+
+
+
+
+
+
