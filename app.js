@@ -1,6 +1,6 @@
 // // console.log("Hello")
 
-// /* 1. values and variables in javascript */
+// /🔆🔆   1. values and variables in javascript */
 
 
 // // var is functional scoped 
@@ -36,7 +36,7 @@
 // /*=========================================================================================*/
 
 
-// /* 2. ====================Data types============================*/
+// /* 🔆🔆   ====================Data types============================*/
 
 // var myname = "Abhijeet Suryawanshi" //string 
 // console.log(myname);
@@ -56,7 +56,7 @@
 
 // //=======================================================================================================
 
-// 3. Expressions and operator
+// 🔆🔆   Expressions and operator
 
 // //Assignment operator (=)
 // var x = 23;
@@ -245,7 +245,7 @@
 // //===============================================================================================================================================================
 
 
-// 4. Control statement & Loops
+//🔆🔆  Control statement & Loops
 
 // var age = 18;
 
@@ -508,7 +508,7 @@
 
 
 
-// 5. function - a function is block of code design to perform a particular task
+// 🔆🔆 function - a function is block of code design to perform a particular task
 
 
 // function myfun(){
@@ -645,7 +645,7 @@
 // //********************************************************************************************** */
 
 
-// 7. Modern Javascript ES6
+// 🔆🔆 Modern Javascript ES6
 
 
 // // let vs const vs var
@@ -805,7 +805,7 @@
 
 
 
-// 7. Arrays - A variable which store more than one value, we can store more than one value in a variable
+// 🔆🔆 Arrays - A variable which store more than one value, we can store more than one value in a variable
 
 
 // //Array Declaration
@@ -1121,17 +1121,69 @@
 ============================================================================================
 ============================================================================================*/
 
-// 8. String - string is zero or more characters written inside quotes.
+// 🔆🔆 String - string is zero or more characters written inside quotes.
 //    Javascript string are used fot storing and manipulating text.
 //    You can use single or double quotes 
 //    Strings can be created as peimitives,
 //    from string literals, or as objects, using the String() constructor
 
-let myName = "Abhijeet";
-let Myname = 'Abhijeet';
+// let myName = "Abhijeet";
+// let Myname = 'Abhijeet';
 
-let lname = new String("Suryawanshi");
+// let lname = new String("Suryawanshi");    // string constructor
 
-console.log(myName);
-console.log(lname)
+// console.log(myName);
+// console.log(lname);
+
+
+//length of string
+
+// let name = "Abhijeet"
+// console.log(name.length)
+
+
+//Escape character
+
+// let txt = "I\'m learing javascript";
+
+// console.log(txt)
+
+// if you don want to mess, simply use the alternate quotes
+
+// let new_txt = 'I want to learn "react"';
+
+// console.log(new_txt);
+
+
+
+// indexof - return the index of (position of) first occurrence of a specified text in a string
+
+// let myBio = "I am abhijeet from Chhindwara";
+
+// console.log(myBio.indexOf("abhijeet"));
+
+// console.log(myBio.indexOf("e", 4)); // start searching from index 4
+
+
+//lastIndexOf - search from last and return index position
+
+// console.log(myBio.lastIndexOf("o")); // searching from last 
+
+
+// search() - search method search a sring for a specified value and return the position of the match
+
+// let myBio = "I am abhijeet";
+
+// let sData = myBio.search("am");
+// console.log(sData)
+
+
+// let aim  = "I want to a full Stack MERN Developer";
+
+// let target = aim.search("MERN");
+
+// console.log(target)
+
+
+
 
