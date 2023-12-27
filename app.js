@@ -1,6 +1,6 @@
 // // console.log("Hello")
 
-// /* values and variables in javascript */
+// /* 1. values and variables in javascript */
 
 
 // // var is functional scoped 
@@ -36,7 +36,7 @@
 // /*=========================================================================================*/
 
 
-// /*====================Data types============================*/
+// /* 2. ====================Data types============================*/
 
 // var myname = "Abhijeet Suryawanshi" //string 
 // console.log(myname);
@@ -56,7 +56,7 @@
 
 // //=======================================================================================================
 
-// //Expressions and operator
+// 3. Expressions and operator
 
 // //Assignment operator (=)
 // var x = 23;
@@ -245,7 +245,7 @@
 // //===============================================================================================================================================================
 
 
-// // Control statement & Loops
+// 4. Control statement & Loops
 
 // var age = 18;
 
@@ -508,7 +508,7 @@
 
 
 
-// //function - a function is block of code design to perform a particular task
+// 5. function - a function is block of code design to perform a particular task
 
 
 // function myfun(){
@@ -645,7 +645,7 @@
 // //********************************************************************************************** */
 
 
-// //Modern Javascript ES6
+// 7. Modern Javascript ES6
 
 
 // // let vs const vs var
@@ -805,7 +805,7 @@
 
 
 
-// //Arrays - A variable which store more than one value, we can store more than one value in a variable
+// 7. Arrays - A variable which store more than one value, we can store more than one value in a variable
 
 
 // //Array Declaration
@@ -1095,5 +1095,43 @@
 // console.log(r)
 
 
+//-----------------------------------------------------------------------------------------------------
 
+
+// How to fatten an array
+// converting 2D and 3D array into one dimensional array
+
+// const arr = [
+//     ['zone_1', 'zone_2'],
+//     ['zone_3', 'zone_4'],
+//     ['zone_5', 'zone_6'],
+//     ['zone_7', 'zone_8'],
+// ]
+
+// let flatArr = arr.reduce((accum, curVal)=>{
+//     return accum.concat(curVal);
+// })
+
+// console.log(flatArr)
+
+
+
+/*==========================================================================================
+============================================================================================
+============================================================================================
+============================================================================================*/
+
+// 8. String - string is zero or more characters written inside quotes.
+//    Javascript string are used fot storing and manipulating text.
+//    You can use single or double quotes 
+//    Strings can be created as peimitives,
+//    from string literals, or as objects, using the String() constructor
+
+let myName = "Abhijeet";
+let Myname = 'Abhijeet';
+
+let lname = new String("Suryawanshi");
+
+console.log(myName);
+console.log(lname)
 
