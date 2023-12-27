@@ -1187,3 +1187,145 @@
 
 
 
+// Extracting String
+
+//slice(start, end)
+//substring(start, end)
+//substr(start, length)
+
+// slice - slice extract a part of string and return the extracted part in a new string
+
+// let str = "fox jumps over the lazy dog"
+
+// let sl = str.slice(4, 9); // does not include end index position
+// console.log(sl);
+
+
+// let fruit = "Apple, Banana, Kiwi, Mango";
+// let sl_1 = fruit.slice(7, -2) //start with index 7 and end with -2 which is count from last
+
+// console.log(sl_1);
+
+
+// substring - similar to slice cannot accept negative indexes
+
+
+// let str = "Apple, Banana, Mango";
+
+// let res = str.slice(7, 15);  //start with index 7 and end in index 15
+
+// console.log(res)
+
+
+//substr() - first parameter is starting index and second parameter in the length
+
+// let str = "Apple, Banana, Mango";
+
+// let res = str.substr(6, 6); // start with index 6 and return 6 character after that
+// console.log(res);
+
+//-------------------------------------------------------------------------------------------------------------------------------
+
+// Replacing string content - replace value
+
+// let myBio = "I am abhijeet V"
+
+// let replacedata = myBio.replace('V', "S")
+
+// console.log(replacedata)
+
+// replaceAll() - replace all matching value in a string
+
+// let myData = "i am abhi, And i want to be developer";
+
+// let rAll = myData.replaceAll('i', 'I')
+
+// console.log(rAll)
+
+
+
+//----------------------------------------------------------------------------------------------------------------------
+
+
+//Extracting String characters
+
+//CharAt(position) - find character which is in a specified index position
+
+// let str = "Hello World";
+
+// let c = str.charAt(3);  //return the characater in index 3
+// console.log(c)
+
+
+//----------------------------------------------------------------------------------------------
+
+
+//charCodeAt - return unicode specified index in a string
+
+// let str = "Hello World";
+
+// console.log(str.charCodeAt(0)); //Return the unicode of a specified character stored in specified index position
+
+
+//--------------------------------------------------------------------------------------------------------------
+
+
+//Property Access
+//ECMAScript 5 (2009) allows property access [] on strings
+
+// let str = "HELLO WORLD";
+// console.log(str[3]); // return index 3 value
+
+
+//----------------------------------------------------------------------------------------------
+
+
+// toUpperCase - convert to capital letter
+
+// let str = "apple, banana, mango";
+// console.log(str.toUpperCase())
+
+
+// toLowerCase - convert to small letter
+
+// let str = "APPLE, BANANA, MANGO";
+
+// console.log(str.toLowerCase())
+
+
+//--------------------------------------------------------------------------------------------------
+
+
+// concat() - join two or more string
+
+// let fname = "Abhijeet";
+// let lname = "Suryawanshi";
+
+// console.log(fname.concat(" ", lname));
+
+
+//---------------------------------------------------------------------------------------------
+
+
+// trim() - trim method remove white space from start and end
+
+// let str = "             Abhijeet Suryawanshi                        ";
+// console.log(str);
+// console.log(str.trim());
+
+
+//--------------------------------------------------------------------------------------------
+
+
+//convert string to array using split() method
+
+// let txt = "a,b,c,d,e";
+// console.log(txt.split(",")); // convert array element of string after every comma which is a seprater
+
+let txt = "1 | 2 | 4 | 6 | 8 | 10";
+console.log(txt.split("|"));  //convert string character into array string seprater wuth |
+
+
+
+
+

@@ -240,7 +240,31 @@ let multiple_of = num_1.map((value)=>{
 console.log(multiple_of)
 
 
+//-------------------------------------------------------------------------------------------------
 
+
+// Que:- Display only 280 characters of a string like the one used in Twitter?
+
+let myTwitte = " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam velit excepturi beatae eum nostrum consequuntur esse officia illo sint exercitationem est eveniet unde, voluptates fuga amet qui voluptate, saepe consequatur? Distinctio ut voluptatem et alias minima tempore architecto, rerum quo illum commodi ea autem repudiandae magni nihil itaque, veritatis quasi perspiciatis quibusdam vitae dolore consequatur ullam voluptas excepturi eum? Quisquam laudantium illum alias doloribus vero iure nulla minus perferendis amet delectus soluta ipsa error natus sint ex earum nostrum consequatur, eaque mollitia cumque exercitationem harum. Nisi fugiat possimus a asperiores doloribus! Eveniet ducimus magni consectetur commodi voluptate quae nemo esse ut temporibus. Perferendis, magnam laudantium! Voluptate cum sit facere odit laudantium? Ratione debitis quam cum sit laborum facere molestiae, aspernatur quos a! Cupiditate, maxime nostrum laboriosam laudantium doloribus quas accusamus tempore placeat commodi vero ipsum libero odio ducimus possimus, minus odit labore, facilis similique? Tempora ad excepturi corporis quis voluptas suscipit inventore quaerat distinctio, exercitationem, ipsum ipsa, quasi adipisci esse laborum id! Obcaecati officiis eveniet molestias repellendus quas ab dolorum error iusto quod iste doloremque, architecto eius mollitia aliquid ipsam corrupti voluptatem sed dicta. Iure alias porro dolorum quis! Rerum, nulla! Optio ducimus rem laudantium est maiores doloremque consequuntur beatae quisquam necessitatibus voluptates error, quas repudiandae esse libero fuga quo eos nam alias impedit, non consectetur architecto accusantium enim laboriosam? Omnis laudantium aperiam repellendus. Ullam debitis aut rem, exercitationem ad sed ipsa velit ducimus cum neque nihil sequi totam illum doloremque ratione iure libero, eos nesciunt commodi numquam impedit molestiae quasi quam deserunt. Minima ducimus nam, eligendi dicta quis eum, consequuntur cupiditate eos soluta vero corporis tenetur, veritatis nemo blanditiis sunt placeat voluptatum quod mollitia! Libero exercitationem suscipit tempora dignissimos voluptatibus error ad aliquid iure dicta, distinctio iste, voluptas quia?"
+
+let myActualTweet = myTwitte.slice(0, 280)
+
+console.log(myActualTweet)
+
+console.log(myActualTweet.length)
+
+
+//-------------------------------------------------------------------------------------------------------
+
+
+
+//Que:- Return the unicode of the last character in a string
+
+let str_1 = "HELLO WORLD";
+let last_index = str_1.length-1;
+console.log(last_index)
+
+console.log(str_1.charCodeAt(10))
 
 
 
