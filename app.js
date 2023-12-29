@@ -1322,8 +1322,69 @@
 // let txt = "a,b,c,d,e";
 // console.log(txt.split(",")); // convert array element of string after every comma which is a seprater
 
-let txt = "1 | 2 | 4 | 6 | 8 | 10";
-console.log(txt.split("|"));  //convert string character into array string seprater wuth |
+// let txt = "1 | 2 | 4 | 6 | 8 | 10";
+// console.log(txt.split("|"));  //convert string character into array string seprater wuth |
+
+
+
+
+/*====================================================================================================
+======================================================================================================
+=======================================================================================================
+========================================================================================================*/
+
+
+
+// 🔆🔆 Date and Time in Javascript
+
+// Javascript Date objects represent a single moment in time in a 
+// platform-independent format. Date objects contain a Number 
+// that represents milliseconds since 1 January 1970 UTC.
+
+// Creating Date Objects
+// There are 4 ways to create a new date objects
+
+
+// new Date() - Date objects are created with the new Date() constructor.
+// new Date() take minimun to arrguments
+
+// console.log(Date.now())   return milisecond
+
+// let TodayDate = new Date(); // Return Today's date and time
+// console.log(TodayDate); 
+
+// console.log(new Date().toLocaleString()); // return local time
+
+// console.log(new Date().toString());  
+
+
+// set Date, time, minutes, seconds, miliseconds
+
+// let date = new Date(2023, 11, 29, 10, 14, 10)
+// console.log(date.toLocaleString())
+
+
+// new Date(dateString) creates a new date object from a date string
+
+// let date = new Date("December 29, 2023 10:21:23");
+// console.log(date.toLocaleString())
+
+
+// new Date(milliseconds) - create a new date object as zero time plus milliseconds
+
+// if we pass current milliseconds, it return current date and time
+
+// let date = new Date(0);
+// console.log(date)
+
+// console.log(Date.now()); 
+
+// let curDate = new Date(1703869031171);
+// console.log(curDate.toLocaleString());
+
+
+
+
 
 
 
