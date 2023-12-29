@@ -267,6 +267,16 @@ console.log(last_index)
 console.log(str_1.charCodeAt(10))
 
 
+//------------------------------------------------------------------------------------------------------------------------
+
+
+console.log(new Date().toLocaleDateString()); // return only current date in format of M/D/Y
+
+console.log(new Date().toLocaleTimeString()); // return only current time in format of H/M/S
+
+console.log(new Date().toLocaleString()); // return Date and time in format of M/D/Y, H/M/S
+
+
 
 
 

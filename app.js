@@ -1429,7 +1429,7 @@
 
 // How to set indivisual Time 
 
-let curTime = new Date();
+// let curTime = new Date();
 
-console.log(curTime.setTime());
+// console.log(curTime.setTime());
 
