@@ -1384,9 +1384,43 @@
 
 
 
+//-------------------------------------------------------------------------------------------------------------
 
 
+//  🔆 Date Method 
 
+// const curDate = new Date()
+// console.log(curDate)
+
+// how to get indivisual date
+// console.log(curDate.toLocaleString());  // return date in local time zone
+// console.log(curDate.getFullYear());    // return current year
+// console.log(curDate.getMonth());      // return current month
+// console.log(curDate.getDate());      // return today's date
+// console.log(curDate.getDay());      // return today's day
+
+
+//----------------------------------------------------------------------------------------------------------
+
+// 🔆 how to indivisual date
+
+// let date = new Date()
+// console.log(date.setFullYear(2023))
+
+
+//  🔆 Time Methods
+
+// let curTime = new Date()
+
+// console.log(curTime.getTime()); // return the numbers in milliseconds, since January 1, 1970
+
+// console.log(curTime.getHours()); // return the Hours of a date as a number
+
+// console.log(curTime.getMinutes()); // return the Minutes of a date as a number
+
+// console.log(curTime.getSeconds()); // return the seconds of a current time in a number
+
+// console.log(curTime.getMilliseconds()); // return the milliseconds of a current time in a numbers
 
 
 
