@@ -7,5 +7,15 @@
 </head>
 <body>
    
+    <button onclick="myfun()">date</button>
+    <p id="demo"></p>
+    <script>
+        function myfun(){
+            let d = new Date();
+            d.setDate(24)
+            document.getElementById('demo').innerHTML = d;
+
+        }
+    </script>
 </body>
 </html>
