@@ -1433,3 +1433,83 @@
 
 // console.log(curTime.setTime());
 
+
+/*================================================================================================
+=============================================================================================================
+=============================================================================================================
+==============================================================================================================
+*/
+
+
+// 🔆🔆 Javascript Math Object - Math object allows to perform mathematical tasks on numbers.
+
+console.log(Math.PI); // return value of PI
+
+// round - return round figure number
+let num = 10.345
+console.log(Math.round(num)); // return round figure number
+
+let num_1 = 11.56
+console.log(Math.round(num_1))
+
+//pow() - return power of values
+
+console.log(Math.pow(3, 2)); // it mean the power of 3 is 2(3**2)
+
+console.log(Math.pow(6, 3)); // the power of 6 is 3
+
+// Math.sqrt() - return the square of value
+
+console.log(Math.sqrt(81)); // return square root of 81 which is 9
+
+console.log(Math.sqrt(25));
+
+console.log(Math.sqrt(55));
+
+// Math.abs() - return the absolute (positive) value
+
+console.log(Math.abs(-23)); // convert negative value to positive
+
+console.log(Math.abs(-108));
+
+console.log(Math.abs(4-10)); // return 6 in the place of -6
+
+
+// Math.ceil() - return the value of rounded up to its nearest integer
+
+console.log(Math.ceil(89.1)); //return 90
+
+console.log(Math.ceil(24.7)); 
+
+console.log(Math.ceil(19.1));
+
+// Math.floor() - return the value rounded down to its nearst integer
+
+console.log(Math.floor(23.8)); //return 23 
+
+console.log(Math.floor(89.124));
+
+// Math.min() - return minimun value
+console.log(Math.min(34, 67, 12, 578, 67)); // return smallest number
+
+console.log(Math.min(23, 12, 67, 89, -238));
+
+
+// Math.max() - return maximum value
+console.log(Math.max(67, 23, 57, 12, 98, 45)); // return biggest number
+
+
+// Math.random() - return random number between 0 (inclusive) and 1 (Exclusive)
+
+console.log(Math.random()); // it only return 0 to 1 decimal values
+
+console.log(Math.random()*10); // it return value between 0 to 10
+
+console.log(Math.floor(Math.random()*10)); // return number between 0 to 9 whole number
+
+// Math.trunc() - return the integer part of number
+
+console.log(Math.trunc(34.5)); // return only number before decimal
+
+console.log(Math.trunc(-239))
+
