@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(10, 10, 54);
+        }
+
+        .main-div{
+            display: grid;
+            justify-content: center;
+            margin-top: 250px;
+        }
+
+        label{
+            font-size: 40px;
+            color: white;
+        }
+        input{
+            height: 30px;
+            border-radius: 4px;
+        }
+
+        select{
+            height: 40px;
+            border-radius: 4px;
+        }
+
+        option{
+            font-size: 25px;
+        }
+
+        #result{
+            font-size: 30px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-div">
+        <label for="">Your Name</label>
+        <input type="text" name="" id="name" >
+        <br>
+        <label for="">Choose an ice cream flavor</label>
+        <select name="iceCreams" id="iceCreams" onchange="selectElement()">
+            <option value="">Select one _</option>
+            <option value="Chocolate">Chocolate</option>
+            <option value="Sardine">Sardine</option>
+            <option value="Vanilla">Vanilla</option>
+        </select>
+        <br>
+        <div id="result"></div>
+    </div>
+
+
+    <script>
+        // const selectElement = () =>{
+        //     const inputName = document.getElementById('name').value;
+        //     const iceCream = document.getElementById('iceCreams').value;
+
+        //     const result = document.getElementById('result');
+        //     result.innerHTML = `${inputName} Your Selected Ice cream flavor is ${iceCream}`
+        // }
+
+
+        // using addEventListenr 
+
+        const iceCreams = document.getElementById('iceCreams');
+
+        iceCreams.addEventListener('change', () => {
+            const inputName = document.getElementById('name').value;
+            const iceCreams = document.getElementById('iceCreams').value;
+            const result = document.getElementById('result');
+
+            result.innerHTML = `${inputName} You Select ${iceCreams} flavor iceCream`
+        })
+
+    </script>
+</body>
+</html>

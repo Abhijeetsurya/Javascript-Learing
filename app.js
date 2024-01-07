@@ -1571,13 +1571,17 @@
 // 🔆 MouseEvent in javascript - check mouseEnterLeave.html file
 //    The MouseEvent Object
 //    Events that occur when the mouse interacts with the HTML
-//    document belongs to the MpuseEvent Object.
+//    document belongs to the MouseEvent Object.
 
 //-----------------------------------------------------------------------------------------------------------------
 
 // 🔆 keyboardEvent in Javascript - check keyboardEvent.html file
-// Events that occur when user presses a key on the keyboard,
-// follow link(ctrl + click) boardEvent object.
-// 
+//    Events that occur when user presses a key on the keyboard,
+//    belongs to the keyboardEvent Object.
 
+// ----------------------------------------------------------------------------------------------------------------------------
+
+// 🔆 InputEvents in Javascript
+// The onchange event occurs when the value of an element has been changed.
+// For radiobuttons and checkboxes, the onchange event occurs when the checked state has changed.
 
