@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(9, 9, 68);
+        }
+
+        .main-div{
+            display: grid;
+            justify-content: center;
+            margin-top: 250px;
+        }
+
+        p{
+            color: white;
+            font-size: 30px;
+        }
+
+        input{
+            height: 50px;
+            width: 250px;
+            margin-left: 250px;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-div">
+        <p>A function is triggered when the user is pressing a key in the input field</p>
+        <br>
+        <input type="text" name="" id="" onkeypress="keypress()" onkeydown="keydown()", onkeyup="keyup()">
+        <p id="keys"></p>
+    </div>
+
+
+    <script>
+        // const keypress = () =>{
+        //     document.querySelector('#keys').innerHTML = `you press ${event.key} and it's code is ${event.code}`
+        // }
+
+        // const keydown = () =>{
+        //     document.querySelector('#keys').innerHTML = 'key is down';
+        //  }
+
+        // const keyup = () => {
+        //     document.querySelector('#keys').innerHTML = 'key is up'
+        // }
+    </script>
+</body>
+</html>

@@ -1568,9 +1568,16 @@
 
 //----------------------------------------------------------------------------------------------------------------
 
-// 🔆 MouseEvent in javascript
+// 🔆 MouseEvent in javascript - check mouseEnterLeave.html file
 //    The MouseEvent Object
 //    Events that occur when the mouse interacts with the HTML
 //    document belongs to the MpuseEvent Object.
+
+//-----------------------------------------------------------------------------------------------------------------
+
+// 🔆 keyboardEvent in Javascript - check keyboardEvent.html file
+// Events that occur when user presses a key on the keyboard,
+// follow link(ctrl + click) boardEvent object.
+// 
 
 
