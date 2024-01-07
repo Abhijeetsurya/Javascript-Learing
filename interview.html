@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview Questions</title>
+</head>
+<body>
+    
+    <ul>
+        <li id="web-id">PHP</li>
+        <li>HTML</li>
+        <li class="web-class">CSS</li>
+        <li class="web-class">Javascript</li>
+    </ul>
+
+    <script>
+        // Access the first macthing class using querySelector
+        let first_web_class = document.querySelector('.web-class'); //  it will return first matching class
+        console.log(first_web_class)
+    </script>
+</body>
+</html>
+
+
+   <!----- Difference between getElementById and querySelector ? ------>
+     
+    <!----- What is getElementById() ? 
+            Syntax:
+            element = document.getElementById(id);
+            
+            Return a reference to the element by its I
+            If the element with the specified ID is not in the element, 
+            it will return null.   ----->
+
+    <!----- What is querySelector() ? 
+            Syntax: 
+            element = document.querySelector(selectors);
+    
+            Return the first element within the document
+            that matches the specified group of selectors,
+            or null if no matches are found. ------>
+
