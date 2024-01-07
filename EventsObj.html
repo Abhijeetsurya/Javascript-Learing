@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events Object</title>
+    <style>
+        body{
+            background-color: rgb(11, 11, 39);
+        }
+        .container{
+            margin: 150px auto;
+            display: grid;
+            place-items: center;
+        }
+
+        h1{
+            color: white;
+            font-size: 60px;
+        }
+
+        a{
+            height: 80px;
+            width: 240px;
+            color: white;
+            background-color: rgb(168, 139, 9);
+            border-radius: 5px;
+            font-size: 25px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            font-weight: 50;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>let's See what is Event Object</h1>
+        <a href="" id="fourth-way">
+            <span>Event Listeners</span>
+        </a>
+    </div>
+
+
+
+    <script>
+        const fourthway = document.getElementById('fourth-way');
+
+        // fourthway.addEventListener('click', (event)=>{
+        //     event.preventDefault();
+        //     console.log('clicked')
+        // })
+
+        const checkEvent = (event) =>{
+            event.preventDefault()
+            alert('Event object')
+            console.log(event);  
+            console.log(event.target);
+            console.log(event.type)
+        }
+
+        fourthway.addEventListener('click', checkEvent)
+    </script>
+</body>
+</html>

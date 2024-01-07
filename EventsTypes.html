@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <style>
+        body{
+            background-color: rgb(1, 1, 37);
+        }
+
+        h1{
+            color: white;
+            display: flex;
+            justify-content: center;
+        }
+       .container{
+            border: 3px black;
+            height: 90px;
+            width: 180px;
+            background-color: rgb(241, 155, 4);
+            display: grid;
+            place-items: center;
+            margin: 100px auto;
+            border-radius: 5px;
+       }
+
+       a{
+        text-decoration: none;
+       }
+
+       span{
+        color: white;
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        margin-left: 25px;
+       }
+
+    </style>
+</head>
+<body>
+    <h1>Different Events Types in Javascript</h1>
+    <div class="container">
+        <a href="" onclick="alert('I am awsome and you clicked first element')">
+            <span>simple inline alert()</span>
+        </a>
+    </div>
+
+    <div class="container">
+        <a href="" onclick="callfunction()">
+            <span id="third-way">By calling a Function</span>
+        </a>
+    </div>
+
+    <div class="container">
+        <a href="">
+            <span >Inline event</span>
+        </a>
+    </div>
+
+    <div class="container">
+        <a href="" id="fourth-way">
+            <span>Event Listeners</span>
+        </a>
+    </div>
+
+
+    <script>
+        const callfunction = () =>{
+            alert('You call a function')
+        }
+
+        // third way of event calling function
+        const third_way = document.querySelector('#third-way');
+
+        third_way.onclick = function(){
+            alert("third way of writinf function in events")
+        }
+
+        // fourth way 
+        const fourth_way = document.querySelector('#fourth-way');
+
+        fourth_way.addEventListener('click', ()=>{
+            alert('I love this way of writing function')
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(8, 8, 45);
+        }
+        p{
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+    <p id="myP" onmousedown="mouseDown()" onmouseup="mouseUp()">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse illo minima vero,
+         similique aspernatur natus ex aut commodi sit eaque dolores architecto officia ea eveniet
+          sunt laboriosam incidunt ut sapiente perferendis tenetur debitis iusto quis 
+        saepe expedita. Rem est, eaque a doloremque dolore nam hic incidunt at esse facilis nihil?</p>
+
+
+    <script>
+        function mouseDown(){
+            document.getElementById('myP').style.color = "white";
+        }
+
+        function mouseUp(){
+            document.getElementById('myP').style.color = 'black';
+        }
+    </script>
+    </body>
+</html>

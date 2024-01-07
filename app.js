@@ -1526,5 +1526,51 @@
 // 🔆🔆 DOM, BOM, Window object in Javascript
 
 
+// see in domNavigation and search HTML file
+
+
+/*==============================================================================================
+  ================================================================================================
+  ================================================================================================
+  ====================================================================================================
+  */
+
+
+// 🔆🔆 Events - check EventsTypes.html file
+  
+/* 🔆 HTML events is the things that happen in HTML elements
+   When Javascript is used in the HTML pages, Javascript 'react' on the events 
+   
+   example:-
+            An HTML web page has finished loading
+            An HTML input field was changed
+            An HTML button was clicked       */
+
+// 🔆 4 ways of writing Evenets in Javasript
+
+// 1: using inline events alert();
+// 2: By calling a function (most common way of writing)
+// 3: using Inline events (HTML onclick="" property and element.onclick)
+// 4: using Event Listeners (addEventListener and IE's attachEvent)
+
+// check the EventsTypes.html file
+
+
+// ----------------------------------------------------------------------------------------------------
+
+
+// 🔆 Events Object - check EventsObj.html file
+
+// What is Events Object?
+// Event object is the parent object of the event object.
+// for example
+// MouseEvent, focuesEvent, keyboardEvent etc
+
+//----------------------------------------------------------------------------------------------------------------
+
+// 🔆 MouseEvent in javascript
+//    The MouseEvent Object
+//    Events that occur when the mouse interacts with the HTML
+//    document belongs to the MpuseEvent Object.
 
 
