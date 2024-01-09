@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color: rgb(12, 12, 46);
+        }
+        .main{
+            margin: 150px auto;
+            display: grid;
+            place-items: center;
+        }
+
+        p{
+            font-size: 50px;
+            color: white;
+        }
+
+        #btn{
+            margin-left: 200px;
+            font-size: 30px;
+            height: 50px;
+            width: 180px;
+            border-radius: 6px;
+            color: white;
+            background-color: rgb(193, 193, 4);
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div>
+            <p>Want to Know my Name ?</p>
+            <p id="showMyName"></p>
+            <br>
+            <button id="btn">Click Here</button>
+        </div>
+    </div>
+
+
+    <script>
+        const MyName = document.querySelector('#showMyName');
+        const btn = document.querySelector('#btn');
+
+
+        // setTimeOut Syntax :-
+        //  setTimeOut(functionName,  code to execute,  Time, )
+
+
+    
+        const showmyname = () =>{
+            MyName.innerHTML = 'Loading.....'
+            setTimeout(()=>{
+                MyName.innerHTML = "Abhijeet Suryawanshi"
+            }, 1000)
+        }
+        btn.addEventListener('click', showmyname)
+    </script>
+</body>
+</html>

@@ -1587,7 +1587,7 @@
 
 //--------------------------------------------------------------------------------------------------------------------
 
-// 🔆🔆 Timing Based Events in Javascript
+// 🔆🔆 Timing Based Events in Javascript - check Timing Events folder
 
 // The windows object allows execution of code at specified time intervals.
 // These time intervals are called timing events.
