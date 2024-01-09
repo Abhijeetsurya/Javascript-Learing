@@ -1585,3 +1585,21 @@
 // The onchange event occurs when the value of an element has been changed.
 // For radiobuttons and checkboxes, the onchange event occurs when the checked state has changed.
 
+//--------------------------------------------------------------------------------------------------------------------
+
+// 🔆🔆 Timing Based Events in Javascript
+
+// The windows object allows execution of code at specified time intervals.
+// These time intervals are called timing events.
+// The two key methods to use with Javascript are:- 
+
+// 🔆 setTimeout(function, milliseconds)
+// Executes a function , after waiting a specified number of milliseconds.
+
+// 🔆 setInterval(function, milliseconds)
+// Same as setTimeout(), but repeats the execution of the function continuosly.
+
+// 1) setTimeOut()
+// 2) clearTimeout()
+// 3) setInterval()
+// 4) clearInterval()
