@@ -20,7 +20,7 @@
             color: white;
         }
 
-        #btn{
+        .btn{
             margin-left: 200px;
             font-size: 30px;
             height: 50px;
@@ -34,16 +34,21 @@
 <body>
     <div class="main">
         <div>
-            <p>Want to Know my Name ?</p>
-            <p id="showMyName"></p>
-            <br>
-            <button id="btn">Click Here</button>
+            <p>Click "Try it". Wait 3 seconds. The page will alert "Hello'.</p>
+            <p>Click "Stop" to prevent the first function to execute.</p>
+            <p>(You must click "stop" before the 2 seconds are up.)</p>
+
+            <button onclick="myVar = setTimeout(myfun, 2000)" class="btn">Try it</button>
+
+            <button onclick="clearTimeout(myVar)" class="btn">Stop it</button>
         </div>
     </div>
 
 
     <script>
-       
+       function myfun(){
+        alert("Hello");
+       }
 
 
     </script>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color: rgb(12, 12, 46);
+        }
+        .main{
+            margin: 150px auto;
+            display: grid;
+            place-items: center;
+        }
+
+        p{
+            font-size: 50px;
+            color: white;
+        }
+
+        .btn1{
+            margin-left: 200px;
+            font-size: 30px;
+            height: 50px;
+            width: 180px;
+            border-radius: 6px;
+            color: white;
+            background-color: rgb(193, 193, 4);
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div>
+            <p>Can you stop me when I reach at 5 ?</p>
+            <br>
+            <button class="btn1" id="btn">start</button>
+            <button class="btn1" id="btn_1">stop</button>
+        </div>
+    </div>
+
+
+    <script>
+        const stopNum = document.querySelector('p');
+        const btn = document.querySelector('#btn');
+        const stop_btn = document.querySelector('#btn_1')
+        let num = 0;
+
+        // setTimeOut Syntax :-
+        //  setTimeOut(functionName,  code to execute,  Time, )
+ 
+        let timeRef;
+        
+    
+        const showMynum = () =>{
+            stopNum.innerHTML = 'Loading.....'
+
+            timeRef = setInterval(()=>{
+                stopNum.innerHTML = `${num}`;
+                num++;
+            }, 1000)
+        }
+        btn.addEventListener('click', showMynum)
+
+        const stopInterval = () =>{
+            clearInterval(timeRef);
+        }
+
+        stop_btn.addEventListener('click', stopInterval)
+
+        
+
+    </script>
+</body>
+</html>
