@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <style>
+        body{
+            background-color: rgb(1, 1, 37);
+        }
+
+        h1{
+            color: white;
+            display: flex;
+            justify-content: center;
+        }
+       .container{
+            border: 3px black;
+            height: 90px;
+            width: 180px;
+            background-color: rgb(241, 155, 4);
+            display: grid;
+            place-items: center;
+            margin: 100px auto;
+            border-radius: 5px;
+       }
+
+       a{
+        text-decoration: none;
+       }
+
+       span{
+        color: white;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        margin-left: 25px;
+       }
+
+    </style>
+</head>
+<body>
+    <h1>Difference Between onclick and addEventListener</h1>
+    <div class="container">
+        <a href="" onclick="alert('I am awsome and you clicked first element')">
+            <span>onClick Event</span>
+        </a>
+    </div>
+
+    <div class="container">
+        <a href="" onclick="callfunction()" id="Listeners">
+            <span id="third-way">addEventListener</span>
+        </a>
+    </div>
+
+   
+
+
+    <script>
+        const listenrs = document.getElementById('Listeners')
+
+        const call = ()=> {
+            event.preventDefault()
+            console.log('addEvenetListerns')
+        }
+
+        listenrs.addEventListener('click', call)
+
+    </script>
+</body>
+</html>
