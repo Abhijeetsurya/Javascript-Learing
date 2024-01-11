@@ -1603,3 +1603,67 @@
 // 2) clearTimeout()
 // 3) setInterval()
 // 4) clearInterval()
+
+
+// --------------------------------------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------------------------------------------
+// -----------------------------------------------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------------------------------------------------
+
+
+// 🔆🔆 Object Oriented Programming in Javascript
+
+// 1) What is Object Literal?
+
+// Object literal is simply a key:value pair data structure.
+// storing variables and functions together in one container,
+// we can refer this as an objects.
+
+/*let bioData = {
+    myName : "Abhijeet",
+    city: "Bhopal",
+    Age: 21,
+    getdata : function(){
+        console.log(`My Name is ${bioData.myName}, My age is ${bioData.Age}`)
+    }
+}
+bioData.getdata()*/
+
+
+
+// object literal
+// 2nd way no need to write functions as well after ES6
+
+/*
+let bioData = {
+    myName : "Abhijeet",
+    city: "Bhopal",
+    Age: 21,
+    getdata(){
+        console.log(`My Name is ${bioData.myName}, My age is ${bioData.Age}`)
+    }
+}
+bioData.getdata(); */
+
+
+// what if we want object as a value inside an object
+
+// let bioData = {
+//     myName : "Abhijeet",
+//     city: "Bhopal",
+//     Age: 21,
+//     getdata(){
+//         console.log(`My Name is ${bioData.myName}, My age is ${bioData.Age}`)
+//     }
+// }
+// bioData.getdata();
+
+// console.log(bioData.Age);
+
+
+
+// -----------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
