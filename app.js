@@ -1613,7 +1613,7 @@
 
 // 🔆🔆 Object Oriented Programming in Javascript
 
-// 1) What is Object Literal?
+// 🔆 1) What is Object Literal?
 
 // Object literal is simply a key:value pair data structure.
 // storing variables and functions together in one container,
@@ -1663,6 +1663,54 @@ bioData.getdata(); */
 
 
 // -----------------------------------------------------------------------------------------------------------------------------------
+
+
+
+// 🔆 What is this object?
+
+//  The definition of "this " object is that it contain the current context.
+
+// The this object can have different values depending on where it is placed.
+
+
+//  // For Example 1
+// console.log(this);
+// it refers to the current context and that is window global object
+
+// console.log(alert(this))
+
+// function myfun(){
+//     console.log(this)
+// }
+// myfun()
+
+
+// var myName = "Abhijeet"; // We can convert a local variable into global using 'this' keyword
+// function myfun(){
+//     console.log(this.myName);  
+// }
+
+// myfun()
+
+
+//--------------------------------------------------------------------------------------------------------------
+
+
+// const obj = {
+//     Name : "Abhijeet",
+//     Age: 21,
+//     city: "Bhopal",
+//     myName() {
+//         console.log(this.Name)
+//     }
+// }
+
+// obj.myName();
+
+// --------------------------------------------------------------------------------------------
+
+
+
 
 
 
