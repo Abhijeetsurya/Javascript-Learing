@@ -1707,11 +1707,191 @@ bioData.getdata(); */
 
 // obj.myName();
 
+
+
 // --------------------------------------------------------------------------------------------
+// -----------------------------------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------------------------------------
+
+// 🌞🌞  ECMAScript 2015 to 2020  
+
+// 🔆🔆 Destructuring in ES6
+// The destructuring assignment syntax is a Javascript expression
+// that makes it possible to unpack value from arrays,
+// or properties from objects, into sidtinct variables.
+
+    //  ➡ Array Destructuring ⛳ 
+
+//  const myBioData = ['abhijeet', 'suryawanshi', 21];
+
+// let myfname = myBioData[0];
+ // let mylname = myBioData[1];
+// let myAge = myBioData[2];
+
+// console.log(myfname);
+
+// let [myfname, mylname, myAge] = myBioData;
+
+// console.log(myAge);
+
+// we can add values too
+
+// let [myfname, mylname, myAge, mydegree = 'Engineering diploma'] = myBioData
+
+
+// console.log(mydegree)
+
+
+//-------------------------------------------------------------------------------------------------
+
+
+// 🔆 Object Properties
+
+// ➡ we can use Dynamic Peoperties
+
+// let myName = 'Abhijeet';
+
+// const myBio = {
+//     [myName]: 'How are you?',
+//     city : 'I am from chhindwara'
+// }
+
+// console.log(myBio)
+
+
+// ➡ no need to write key and value, name and key has same name
+
+// let myName = "Abhijeet"
+
+// let myAge = 21
+
+// const myBio = {
+//     myName,
+//     myAge
+// }
+
+// console.log(myBio)
+
+
+//-----------------------------------------------------------------------------------------------------------------
+
+
+// 🔆 Spread Operator
+
+// const colors = ['red', 'yellow', 'blue', 'skyblue'];
+
+// // const myColor = ['red', 'yellow', 'blue', 'skyblue', 'white', 'yellow', 'black']  - we dont need to write again
+
+// const Myfavcolor = [...colors, 'white', 'yellow', 'black']
+
+// console.log(Myfavcolor);
 
 
 
 
+//-----------------------------------------------------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------------------------------------------------------------
+// -----------------------------------------------------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------------------------------------------------------
 
+
+
+// 🔆🔆 ES7 features - 2016
+
+// 🔆 includes method
+
+// const colors = ['red', 'yellow', 'blue', 'green', 'skyblue']
+
+// const isPresent = colors.includes('yellow');  // if value is present in array return true
+
+// console.log(isPresent)
+
+
+// ----------------------------------------------------------------------------------------------------
+
+// 🔆 Exponentional operator
+
+// console.log(2**2); //return the power of 2
+
+// console.log(5**6); // return the power of 5
+
+
+// ---------------------------------------------------------------------------------------------------------------
+// ---------------------------------------------------------------------------------------------------------------
+
+
+// 🔆🔆 ES8 - 2017
+
+//  String padding - for giving blank space in starting and ending of string
+//  Object.values() - convert object to array
+//  Object.entries()
+
+
+// console.log("abhijeet".padStart(5)) 
+
+// console.log("abhijeet".padEnd(4)) 
+
+//-------------------------------------------------------------------------------------------------------
+
+// const person = {name: "abhi", age: 21};
+
+// let value = Object.values(person); 
+// console.log(value)
+
+// const myBio = {
+//     name : "abhijeet",
+//     city : "bhopal",
+//     age : 21,
+//     eduction: "diploma"
+// }
+
+// let value = Object.values(myBio) // convert object into array and return only value in a array
+// console.log(value)
+
+
+
+// --------------------------------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------------------------------
+
+// ES9 - 2018
+
+// spread operator
+
+// const person = {name:'abhijeet', age:21};
+
+// const sPerson = {...person, city : "bhopal"}
+
+// console.log(sPerson)
+
+
+// --------------------------------------------------------------------------------------------------------------------------------
+// ---------------------------------------------------------------------------------------------------------------------------------------
+
+
+// ES10 - 2019
+
+
+// converting 2D and 3D array into one dimesional array
+// const arr = [
+//     ['zone_1', 'zone_2'],
+//     ['zone_3', 'zone_4'],
+//     ['zone_5', 'zone_6']
+// ]
+
+// console.log(arr.flat());
+
+
+// const arr_1 = [
+//     ['zone_1', 'zone_2'],
+//     ['zone_3', 'zone_4'],
+//     ['zone_5', 'zone_6'],
+//     ['zone_7', ['zone_7.1', ['zone_7.1.1', 'zone_7.1.2']]]
+// ];
+
+// console.log(arr_1.flat(Infinity)); // flat all dimensional array
+
+
+// ---------------------------------------------------------------------------------------------------------
 
 
