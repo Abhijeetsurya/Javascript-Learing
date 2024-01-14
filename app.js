@@ -1944,10 +1944,47 @@ bioData.getdata(); */
 
 
 
-// 🔆🔆 Advance Javascript
+// 🔆🔆 Advance Javascript - check Advance JS folder
 
 
 // What is Event Propagation ?
 
 // The Event Propagation mode determines in which order the elements receive the event.
+
+// ------------------------------------------------------------------------------------------
+
+// 🔆 Higher order function - accept other function as arrgument
+
+const add = (a, b) => {
+    return a+b;
+}
+
+const sub = (a, b) =>{
+    return a-b;
+}
+
+const mult = (a, b) => {
+    return a*b;
+}
+
+const divid = (a, b) => {
+    return a/b;
+}
+
+const reminder = (a, b) => {
+    return a%b;
+}
+
+const calculator = (num1, num2, operator) => {
+    return operator(num1, num2);
+}
+
+console.log(calculator(4, 4, add))
+
+console.log(calculator(5, 7, sub))
+
+
+
+
+
 

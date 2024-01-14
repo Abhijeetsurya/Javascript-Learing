@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 120px auto;
+            display: grid;
+            place-items: center;
+           
+        }
+        .parentDiv {
+            border: 4px solid blue; 
+            height: 450px;
+            width: 450px;
+            background-color: rgb(132, 249, 249);
+        }
+
+        .childDiv{
+            height: 350px;
+            width: 350px;
+            border: 4px solid green;
+            margin: 50px auto;
+            display: grid;
+            place-items: center;
+            background-color: rgb(33, 242, 33);
+        }
+    </style>
+</head>
+<body>
+    <div class="parentDiv" id="parentId">
+        <div class="childDiv" id="childId">
+            
+        </div>
+    </div>
+
+    <script>
+        const parentId = document.getElementById('parentId');
+        const childId = document.getElementById('childId');
+
+        const parentCall = () =>{
+            alert('Parent call');
+        }
+
+        const childCall = () =>{
+            alert('Child Call')
+            event.stopPropagation();
+        }
+
+        // parentId.addEventListener('click', parentCall,);
+        // childId.addEventListener('click', childCall);
+
+        // 
+        parentId.addEventListener('click', parentCall, true);  // using true or false we can decide event capturing and event bubbling
+        childId.addEventListener('click', childCall, true ); 
+    </script>
+</body>
+</html>
