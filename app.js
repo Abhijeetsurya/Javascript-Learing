@@ -1955,33 +1955,33 @@ bioData.getdata(); */
 
 // 🔆 Higher order function - accept other function as arrgument
 
-const add = (a, b) => {
-    return a+b;
-}
+// const add = (a, b) => {
+//     return a+b;
+// }
 
-const sub = (a, b) =>{
-    return a-b;
-}
+// const sub = (a, b) =>{
+//     return a-b;
+// }
 
-const mult = (a, b) => {
-    return a*b;
-}
+// const mult = (a, b) => {
+//     return a*b;
+// }
 
-const divid = (a, b) => {
-    return a/b;
-}
+// const divid = (a, b) => {
+//     return a/b;
+// }
 
-const reminder = (a, b) => {
-    return a%b;
-}
+// const reminder = (a, b) => {
+//     return a%b;
+// }
 
-const calculator = (num1, num2, operator) => {
-    return operator(num1, num2);
-}
+// const calculator = (num1, num2, operator) => {
+//     return operator(num1, num2);
+// }
 
-console.log(calculator(4, 4, add))
+// console.log(calculator(4, 4, add))
 
-console.log(calculator(5, 7, sub))
+// console.log(calculator(5, 7, sub))
 
 
 
