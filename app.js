@@ -1986,5 +1986,150 @@ bioData.getdata(); */
 
 
 
+// ----------------------------------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------------------------------------
+
+
+
+
+// 🔆 Hoisting in Javascript 
+
+// we have a creation phase and execution phase.
+
+// Hoisting in javascript is a mechanism where variables and functions
+// declarations are moved to the top of thier scope before the code execute.
+
+
+// For Example -
+// console.log(myName); // value is now undefined
+
+// var myName = "Abhijeet";  
+
+// hoisting is not supporting in after ES6
+
+
+// -----------------------------------------------------------------------------------------------
+
+
+// 🔆 What is Scope chain and Lexical Scoping in Javascript
+
+// The scope chain is used to resolve the value of variable names in javascript
+// scope chain in javascript is lexically defined, which means that we be by looking at the code.
+// At the top, we have the global scope, which is the window object in the browser.
+// Lexical scoping means now, the inner function can get access to their parent functions varibales bu the vice-versa is not true
+
+
+// let a = 'Hello guys ';
+
+// const first = () => {
+//     let b = 'How are you ? ';
+
+//     const second = () =>{
+//        let c = 'Hi, I am fine Thank You';
+
+//         console.log(a+b+c);
+//     }
+//     second()
+//     // console.log(c); // we cannot access a variable declared into the function which created using lewt and const
+// }
+
+// first()
+
+
+// ------------------------------------------------------------------------------------------------------------------------------
+
+
+// 🔆 What is Closures in Javascript ?
+
+// A closure is the combination of a function bundled together (enclosed) with references
+// to its surronding state (the lexical environment).
+
+// In other words, a closure gives you access to an outer fucntion's scope from inner function.
+
+// In Javascript, closures are created every time a function is created at function creation time.
+
+// for Example
+
+// it same like lexical scope
+
+
+// Example:-
+
+// const outerfun = (a) =>{
+//     let b = 10;
+//     const innerfun = () => {
+//         let sum = a+b;
+//         console.log(sum);
+//     }
+//     innerfun();
+// }
+// outerfun(5);
+
+
+// --------------------------------------------------------------------------------------------------------
+
+
+// 🔆 Use strict - if we use strict mode we cannot declare a variable without var, let, const
+
+// "use strict"
+
+// // x = "Abhijeet";  // this is not possible if we use strict mode
+// let x = "Abhi";
+// console.log(x)
+
+
+//----------------------------------------------------------------------------------------------------------------------
+
+
+// function Currying - takes first one and return second function
+
+// function sum(num1){
+//     return function (num2) {
+//         return function(num3){
+//             console.log(num1 + num2 + num3)
+//         }
+//     }
+// }
+  
+// sum(5)(3)(8);
+
+
+// using fat arrow function
+
+// const sum = (num1) => (num2) => (num3) => console.log(num1+num2+num3);
+
+// sum(3)(5)(8);
+
+
+// -------------------------------------------------------------------------------------------------------------------
+
+
+// CallBack Hell
+
+// setTimeout(()=>{
+//     console.log('1 work is done');
+//     setTimeout(()=>{
+//         console.log('2 work is done')
+//         setTimeout(()=>{
+//             console.log('3 work is done')
+//             setTimeout(()=>{
+//                 console.log('4 work is done')
+//                 setTimeout(()=>{
+//                     console.log('5 work is done')
+//                 }, 1000)
+//             }, 1000)
+//         }, 1000)
+//     }, 1000)
+// },1000)
+
+
+
+
+
+
+
+
 
 

@@ -84,3 +84,46 @@
 
 // bioData.getData()
 
+
+// ---------------------------------------------------------------------------------------------------------------
+
+// Difference Between Asynchronous and synchronous Javascript
+
+// Synchronous Javascript - program run line by line
+
+// const fun2 = () => {
+//     console.log('fucntion 2 is called')
+// }
+
+
+// const fun1 = () => {
+//     console.log('function 1 is called');
+//     fun2()
+//     console.log('Function 1 is called again')
+// }
+// fun1()
+
+
+// Asynchronous Javascript - don't wait for other operation it will run 
+
+// const fun2 = () => {
+//        setTimeout(()=>{
+//         console.log('fucntion 2 is called')
+//        }, 2000)  // run after 2 second
+//     }
+    
+//     const fun1 = () => {
+//         console.log('function 1 is called');
+//         fun2()
+//         console.log('Function 1 is called again')
+//     }
+
+//     fun1()
+    
+
+// --------------------------------------------------------------------------------------------------------
+
+
+// What is the output of sum(5)(3)(8) ?
+
+

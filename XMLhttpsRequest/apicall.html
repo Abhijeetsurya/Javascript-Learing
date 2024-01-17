@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Calling Project</title>
+
+    <style>
+      body{
+        display: grid;
+        place-items: center;
+        margin: 150px auto;
+        background-color: black;
+      }
+
+      #card{
+        border: 4px solid black;
+        height: 450px;
+        width: 150%;
+        display: grid;
+        place-items: center;
+        border-radius: 30px;
+        background-color: white;
+        transition: transform 0.3s ease;
+      }
+
+      #card:hover {
+    transform: scale(0.96); 
+} 
+
+      .card-body-img{
+        height: 200px;
+        width: 200px;
+        margin: 10px auto;
+        display: grid;
+        place-items: center;
+      }
+
+      h1{
+        display: grid;
+        place-items: center;
+        font-size: 40px;
+      }
+
+      p{
+        display: grid;
+        place-items: center;
+        font-size: 25px;
+        margin-top: -15px;
+      }
+
+      .card-footer{
+        margin: 20px auto;
+      }
+
+      .Population-tag{
+        font: 30px bold;
+      }
+
+      hr{
+        width: 155%;
+        margin-left: -56px;
+        height: 0.5px;
+        background-color: gray;
+      }
+
+      h3{
+        display: grid;
+        place-items: center;
+        margin-top: -15px;
+        font-size: 30px;
+      }
+
+     
+    </style>
+</head>
+<body>
+    <div id="main-container">
+       
+    </div>
+
+    <script>
+        const container = document.querySelector('#main-container')
+
+        const request = new XMLHttpRequest();
+        request.open('GET', "https://restcountries.com/v3.1/name/Nepal");
+        request.send();
+
+        // to get response
+
+        request.addEventListener('load', function(){
+        //    console.log(this.responseText)
+
+        const [data] = JSON.parse(this.responseText)
+        // console.log(data.capital);
+
+        const htmlData = `
+        <div id="card">
+            <article>
+            <div class="card-body">
+                <img src="${data.flags.svg}" alt="" class="card-body-img">
+                <h1 class="card-body-title">
+                    <span>${data.name.common}</span>
+                </h1>
+                <p class="class-body-text">Capital: ${data.capital}</p>
+            </div>
+            <hr>
+            <div class="card-footer">
+                <div class="card-footer-social">
+                    <p class = "Population-tag">Population</p>
+                    <h3>${data.population}</h3>
+                </div>
+            </div>
+         <article>
+
+        </div>
+         `;
+
+         container.insertAdjacentHTML("afterbegin", htmlData)
+        })
+
+    </script>
+</body>
+</html>
