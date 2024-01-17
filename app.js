@@ -2083,7 +2083,7 @@ bioData.getdata(); */
 //----------------------------------------------------------------------------------------------------------------------
 
 
-// function Currying - takes first one and return second function
+// 🔆 function Currying - takes first one and return second function
 
 // function sum(num1){
 //     return function (num2) {
@@ -2096,7 +2096,7 @@ bioData.getdata(); */
 // sum(5)(3)(8);
 
 
-// using fat arrow function
+// 🔆 using fat arrow function
 
 // const sum = (num1) => (num2) => (num3) => console.log(num1+num2+num3);
 
@@ -2106,7 +2106,7 @@ bioData.getdata(); */
 // -------------------------------------------------------------------------------------------------------------------
 
 
-// CallBack Hell
+// 🔆 CallBack Hell
 
 // setTimeout(()=>{
 //     console.log('1 work is done');
@@ -2126,6 +2126,40 @@ bioData.getdata(); */
 
 
 
+// ----------------------------------------------------------------------------------------------------------------
+// -------------------------------------------------------------------------------------------------------------------
+// ---------------------------------------------------------------------------------------------------------------------
+// ---------------------------------------------------------------------------------------------------------------------
+
+
+// 🔆🔆 JSON - Javascript Object Notation
+
+// 🔆 JSON.Stringify turns a Javascript object into JSON text and stores that JSON text in a string 
+
+// Example:
+
+// var my_object = {key_1: "some text", key_2: true, key_3: 2};
+
+// 🔆 convert object into JSON using JSON.Stringfy
+
+// var convert_into_Json = JSON.stringify(my_object); // Now the data type is string because data type of JSON is string
+
+// console.log(convert_into_Json)
+
+// console.log(typeof(convert_into_Json)); // JSON is string type 
+
+
+// ------------------------------------------------------------------
+
+// 🔆 convert JSON into object using JSON.parse
+
+// var convert_into_Json = JSON.stringify(my_object); // this is converted JSON file now we can change into object
+
+// var json_into_obj = JSON.parse(convert_into_Json); // now this is object
+
+// console.log(json_into_obj)
+
+// console.log(typeof(json_into_obj))
 
 
 
