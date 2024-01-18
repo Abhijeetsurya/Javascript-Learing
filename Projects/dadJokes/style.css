@@ -1,0 +1,39 @@
+body{
+    display: grid;
+    place-items: center;
+    margin: 5px auto;
+    background-color: rgb(32, 173, 238);
+}
+
+.main-container{
+    background-color: white;
+    height: 350px;
+    width: 750px;
+    display: grid;
+    place-items: center;
+    margin: 250px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 3px;
+}
+
+h3{
+    font-size: 30px;
+    font-family: Cursive;
+}
+
+#joke{
+    margin-top: -50px;
+    font-size: 25px;
+    font-family: Fantasy;
+    display: flex;
+    place-items: center;
+    margin-left: 50px;
+}
+
+.btn{
+    font-size: 20px;
+    height: 40px;
+    width: 120px;
+    border-radius: 6px;
+    background-color: rgba(245, 225, 6, 0.845);
+}
