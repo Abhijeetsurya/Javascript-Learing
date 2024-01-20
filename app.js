@@ -1967,59 +1967,421 @@ bioData.getdata(); */
 
 // Promisses - resolve the problem of callback hell
 
-function register(){
-  return new Promise((resolve, reject) => {
-  setTimeout(()=>{
-    console.log('Registrition is completed')
-    resolve()
-  }, 2000)
- })
+// function register(){
+//   return new Promise((resolve, reject) => {
+//   setTimeout(()=>{
+//     console.log('Registrition is completed')
+//     resolve()
+//   }, 2000)
+//  })
+// }
+
+// function sendEmail(){
+//   return new Promise((resolve, reject) =>{
+//   setTimeout(()=>{
+//     console.log('Email Send Successfully')
+//     resolve()
+//   }, 2000)
+// })
+// }
+
+
+// function login(){
+//   return new Promise((resolve, reject) => {
+//   setTimeout(()=>{
+//     console.log('login Successfully');
+//     resolve()
+//   }, 4000)
+// })
+// }
+
+// function getUserData(){
+//   return new Promise((resolve, reject) => {
+//   setTimeout(()=>{
+//     console.log('Getting User Data Wait...')
+//     resolve()
+//   }, 1000)
+// })
+// }
+
+// function DisplayData(){
+//   return new Promise((resolve, reject) => {
+//   setTimeout(()=>{
+//     let data = {
+//       Name: 'Abhijeet',
+//       Age: 21,
+//       City: "Bhopal"
+//     }
+//     console.log(data);
+//   })
+//   resolve()
+// })
+// }
+
+// register()
+// .then(sendEmail)
+// .then(login)
+// .then(getUserData)
+// .then(DisplayData)
+
+
+// -------------------------------------------------------------
+
+// catch/error hanlding
+
+// function register(){
+//   return new Promise((resolve, reject) => {
+//   setTimeout(()=>{
+//     return reject('Error')
+//     console.log('Registrition is completed')
+    
+//   }, 2000)
+//  })
+// }
+
+// function sendEmail(){
+//   return new Promise((resolve, reject) =>{
+//   setTimeout(()=>{
+//     console.log('Email Send Successfully')
+//     resolve()
+//   }, 2000)
+// })
+// }
+
+
+// function login(){
+//   return new Promise((resolve, reject) => {
+//   setTimeout(()=>{
+//     console.log('login Successfully');
+//     resolve()
+//   }, 4000)
+// })
+// }
+
+// function getUserData(){
+//   return new Promise((resolve, reject) => {
+//   setTimeout(()=>{
+//     console.log('Getting User Data Wait...')
+//     resolve()
+//   }, 1000)
+// })
+// }
+
+// function DisplayData(){
+//   return new Promise((resolve, reject) => {
+//   setTimeout(()=>{
+//     let data = {
+//       Name: 'Abhijeet',
+//       Age: 21,
+//       City: "Bhopal"
+//     }
+//     console.log(data);
+//   })
+//   resolve()
+// })
+// }
+
+// register()
+// .then(sendEmail)
+// .then(login)
+// .then(getUserData)
+// .then(DisplayData)
+// .catch((err)=>{
+//   console.log('Error')
+// })
+
+
+// ------------------------------------------------------------------------------------------------------------
+
+
+// Async/Await
+
+// function register(){
+  //   return new Promise((resolve, reject) => {
+  //   setTimeout(()=>{
+  //     console.log('Registrition is completed')
+  //     resolve()
+  //   }, 2000)
+  //  })
+  // }
+  
+  // function sendEmail(){
+  //   return new Promise((resolve, reject) =>{
+  //   setTimeout(()=>{
+  //     console.log('Email Send Successfully')
+  //     resolve()
+  //   }, 2000)
+  // })
+  // }
+  
+  
+  // function login(){
+  //   return new Promise((resolve, reject) => {
+  //   setTimeout(()=>{
+  //     console.log('login Successfully');
+  //     resolve()
+  //   }, 4000)
+  // })
+  // }
+  
+  // function getUserData(){
+  //   return new Promise((resolve, reject) => {
+  //   setTimeout(()=>{
+  //     console.log('Getting User Data Wait...')
+  //     resolve()
+  //   }, 1000)
+  // })
+  // }
+  
+  // function DisplayData(){
+  //   return new Promise((resolve, reject) => {
+  //   setTimeout(()=>{
+  //     let data = {
+  //       Name: 'Abhijeet',
+  //       Age: 21,
+  //       City: "Bhopal"
+  //     }
+  //     console.log(data);
+  //   })
+  //   resolve()
+  // })
+  // }
+  
+  // register()
+  // .then(sendEmail)
+  // .then(login)
+  // .then(getUserData)
+  // .then(DisplayData)
+  
+  
+  // -------------------------------------------------------------
+  
+  // Async/await
+  
+//   function register() {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             console.log('Registration is completed');
+//             resolve();
+//         }, 2000);
+//     });
+// }
+
+// function sendEmail() {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             console.log('Email Send Successfully');
+//             resolve();
+//         }, 2000);
+//     });
+// }
+
+// function login() {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             console.log('Login Successfully');
+//             resolve();
+//         }, 4000);
+//     });
+// }
+
+// function getUserData() {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             console.log('Getting User Data Wait...');
+//             resolve();
+//         }, 1000);
+//     });
+// }
+
+// function DisplayData() {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             let data = {
+//                 Name: 'Abhijeet',
+//                 Age: 21,
+//                 City: "Bhopal"
+//             };
+//             console.log(data);
+//             resolve();
+//         }, 1000);
+//     });
+// }
+
+
+
+// async function myfun(){
+//   await register()
+
+//   await sendEmail()
+   
+//   await login()
+
+//   await getUserData()
+
+//   await  DisplayData()
+// }
+
+// myfun().then(()=>{
+//   console.log('All Set')
+// })
+
+
+// ------------------------------------------------------------------------------------------------------------------
+
+
+// Error Handling and catch
+
+
+
+//   function register() {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             console.log('Registration is completed');
+//             resolve();
+//         }, 2000);
+//     });
+// }
+
+// function sendEmail() {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             console.log('Email Send Successfully');
+//             return reject('Invaild email')
+//         }, 2000);
+//     });
+// }
+
+// function login() {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             console.log('Login Successfully');
+//             resolve();
+//         }, 4000);
+//     });
+// }
+
+// function getUserData() {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             console.log('Getting User Data Wait...');
+//             resolve();
+//         }, 1000);
+//     });
+// }
+
+// function DisplayData() {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             let data = {
+//                 Name: 'Abhijeet',
+//                 Age: 21,
+//                 City: "Bhopal"
+//             };
+//             console.log(data);
+//             resolve();
+//         }, 1000);
+//     });
+// }
+
+
+
+// async function myfun(){
+//   await register()
+
+//   await sendEmail()
+   
+//   await login()
+
+//   await getUserData()
+
+//   await  DisplayData()
+// }
+
+// myfun().then(()=>{
+//   console.log('All Set')
+// }).catch((err)=>{
+//   console.log(err)
+// })
+
+
+// -------------------------------------------------------------------------------------------------------
+
+
+
+function register() {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            console.log('Registration is completed');
+            resolve();
+        }, 2000);
+    });
 }
 
-function sendEmail(){
-  return new Promise((resolve, reject) =>{
-  setTimeout(()=>{
-    console.log('Email Send Successfully')
-    resolve()
-  }, 2000)
+function sendEmail() {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            console.log('Email Send Successfully');
+            reject('Error invalid email')
+        }, 2000);
+    });
+}
+
+function login() {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            console.log('Login Successfully');
+            resolve();
+        }, 4000);
+    });
+}
+
+function getUserData() {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            console.log('Getting User Data Wait...');
+            resolve();
+        }, 1000);
+    });
+}
+
+function DisplayData() {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            let data = {
+                Name: 'Abhijeet',
+                Age: 21,
+                City: "Bhopal"
+            };
+            console.log(data);
+            resolve();
+        }, 1000);
+    });
+}
+
+
+
+async function myfun(){
+ try{  
+  await register()
+
+  await sendEmail()
+   
+  await login()
+
+  await getUserData()
+
+  await  DisplayData()
+
+} catch(err){
+  console.log(err)
+
+  throw new Error();
+}
+}
+
+myfun().then(()=>{
+  console.log('All Set')
+}).catch((err)=>{
+  console.log(err)
 })
-}
-
-
-function login(){
-  return new Promise((resolve, reject) => {
-  setTimeout(()=>{
-    console.log('login Successfully');
-    resolve()
-  }, 4000)
-})
-}
-
-function getUserData(){
-  return new Promise((resolve, reject) => {
-  setTimeout(()=>{
-    console.log('Getting User Data Wait...')
-    resolve()
-  }, 1000)
-})
-}
-
-function DisplayData(){
-  return new Promise((resolve, reject) => {
-  setTimeout(()=>{
-    let data = {
-      Name: 'Abhijeet',
-      Age: 21,
-      City: "Bhopal"
-    }
-    console.log(data);
-  })
-  resolve()
-})
-}
-
-register()
-.then(sendEmail)
-.then(login)
-.then(getUserData)
-.then(DisplayData)

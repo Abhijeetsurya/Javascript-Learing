@@ -1,12 +1,10 @@
 // PROMISES
-// GET https://icanhazdadjoke.com/ 
+// GET https://icanhazdadjoke.com/
 
 const jokes = document.querySelector('#joke');
 const jokeBtn = document.querySelector('#jokeBtn');
 
-
-const generateJokes = () =>{
-
+const generateJokes = () => {
     const setHeader = {
         headers: {
             Accept: "application/json"
@@ -14,25 +12,26 @@ const generateJokes = () =>{
     };
 
     fetch('https://icanhazdadjoke.com/', setHeader)
-    .then((res) => res.json())
-    .then((data) => {
-       jokes.innerHTML = data.joke;
-    }).catch((error)=>{
-        console.log(error)
-    })
-}
+        .then((res) => res.json())
+        .then((data) => {
+            jokes.innerHTML = data.joke;
+        })
+        .catch((error) => {
+            console.log(error);
+        });
+};
 
-jokeBtn.addEventListener('click', generateJokes)
+jokeBtn.addEventListener('click', generateJokes);
 
-generateJokes()
+generateJokes();
 
-
-function changeColor(event){
-    if(event = "mousedown"){
-        jokeBtn.style.bakcgroundcolor = "white";
-    }else{
-        jokeBtn.style.bakcgroundcolor = 
+function changeColor(event) {
+    if (event.type === "mousedown") {
+        jokeBtn.style.backgroundColor = "white";
+    } else {
+        jokeBtn.style.backgroundColor = "";
     }
 }
 
-jokeBtn.addEventListener('click', changecolor)
+jokeBtn.addEventListener('mousedown', changeColor);
+jokeBtn.addEventListener('mouseup', changeColor);
