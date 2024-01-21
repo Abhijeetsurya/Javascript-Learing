@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(4, 4, 69);
+}
+
+.outer-div{
+    display: grid;
+    place-items: center;
+    margin-top: 250px;
+}
+
+.main-heading{
+    font-size: 100px;
+    color: wheat;
+}
+
+
