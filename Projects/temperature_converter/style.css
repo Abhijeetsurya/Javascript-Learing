@@ -1,0 +1,22 @@
+body{
+    display: grid;
+    place-items: center;
+    background-color: rgb(195, 131, 4);
+    margin-top: 250px;
+}
+
+
+.main-conatiner{
+    height: 300px;
+    width: 700px;
+    border-radius: 6px;
+    background-color: rgb(250, 104, 170);
+    display: grid;
+    place-items: center;
+}
+
+form{
+    font-size: 25px;
+    display: grid;
+    place-items: center;
+}

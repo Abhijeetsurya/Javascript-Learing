@@ -2309,79 +2309,79 @@ bioData.getdata(); */
 
 
 
-function register() {
-    return new Promise((resolve, reject) => {
-        setTimeout(() => {
-            console.log('Registration is completed');
-            resolve();
-        }, 2000);
-    });
-}
+// function register() {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             console.log('Registration is completed');
+//             resolve();
+//         }, 2000);
+//     });
+// }
 
-function sendEmail() {
-    return new Promise((resolve, reject) => {
-        setTimeout(() => {
-            console.log('Email Send Successfully');
-            reject('Error invalid email')
-        }, 2000);
-    });
-}
+// function sendEmail() {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             console.log('Email Send Successfully');
+//             reject('Error invalid email')
+//         }, 2000);
+//     });
+// }
 
-function login() {
-    return new Promise((resolve, reject) => {
-        setTimeout(() => {
-            console.log('Login Successfully');
-            resolve();
-        }, 4000);
-    });
-}
+// function login() {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             console.log('Login Successfully');
+//             resolve();
+//         }, 4000);
+//     });
+// }
 
-function getUserData() {
-    return new Promise((resolve, reject) => {
-        setTimeout(() => {
-            console.log('Getting User Data Wait...');
-            resolve();
-        }, 1000);
-    });
-}
+// function getUserData() {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             console.log('Getting User Data Wait...');
+//             resolve();
+//         }, 1000);
+//     });
+// }
 
-function DisplayData() {
-    return new Promise((resolve, reject) => {
-        setTimeout(() => {
-            let data = {
-                Name: 'Abhijeet',
-                Age: 21,
-                City: "Bhopal"
-            };
-            console.log(data);
-            resolve();
-        }, 1000);
-    });
-}
+// function DisplayData() {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             let data = {
+//                 Name: 'Abhijeet',
+//                 Age: 21,
+//                 City: "Bhopal"
+//             };
+//             console.log(data);
+//             resolve();
+//         }, 1000);
+//     });
+// }
 
 
 
-async function myfun(){
- try{  
-  await register()
+// async function myfun(){
+//  try{  
+//   await register()
 
-  await sendEmail()
+//   await sendEmail()
    
-  await login()
+//   await login()
 
-  await getUserData()
+//   await getUserData()
 
-  await  DisplayData()
+//   await  DisplayData()
 
-} catch(err){
-  console.log(err)
+// } catch(err){
+//   console.log(err)
 
-  throw new Error();
-}
-}
+//   throw new Error();
+// }
+// }
 
-myfun().then(()=>{
-  console.log('All Set')
-}).catch((err)=>{
-  console.log(err)
-})
+// myfun().then(()=>{
+//   console.log('All Set')
+// }).catch((err)=>{
+//   console.log(err)
+// })
