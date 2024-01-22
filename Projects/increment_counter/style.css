@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(3, 3, 71);
+    display: flex;
+    justify-content: center;
+    column-gap: 70px;
+    margin-top: 250px;
+}
+
+.counter-div{
+    display: grid;
+    place-items: center;
+    row-gap: 10px;
+    font-size: 40px;
+    color: white;
+    
+}
+
+.counter{
+    font-size: 80px;
+    color: rgb(59, 185, 243);
+}
