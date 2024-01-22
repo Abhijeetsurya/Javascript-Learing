@@ -8,17 +8,18 @@
 </head>
 <body>
     <div class="main-conatiner">
-       <form id="tempCalc" onsubmit="calculateTemp(); return false">
+       <form id="tempCalc" onsubmit=" event.preventDefault(); calculateTemp()">
             <label for="temp">Please enter the temperature you'd like to convert</label><br>
-            <input type="number" name="" id=""> <br>
+            <input type="number" name="" class="input" id="input"> <br>
             <select name="temp_diff" id="temp_diff">
                 <option value="cel">Celsius</option>
                 <option value="fah">Fahrenheit</option>
             </select> <br><br>
 
-            <input type="submit" value="converet"><br>
+            <input type="submit" value="convert" class="btn"><br>
             <span id="result-container"></span>
         </form>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
